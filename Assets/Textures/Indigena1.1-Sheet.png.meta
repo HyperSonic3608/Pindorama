@@ -32,6 +32,21 @@ TextureImporter:
   - first:
       213: 3639686884022827519
     second: Indigena1.1-Sheet_9
+  - first:
+      213: 4219475218992821427
+    second: Indigena1.1-Sheet_10
+  - first:
+      213: 1002349728224791650
+    second: Indigena1.1-Sheet_11
+  - first:
+      213: -224401511893167520
+    second: Indigena1.1-Sheet_12
+  - first:
+      213: -5635224539535348493
+    second: Indigena1.1-Sheet_13
+  - first:
+      213: -3616609364423964003
+    second: Indigena1.1-Sheet_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -346,11 +361,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Indigena1.1-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b471ae1b569e8a30800000000000000
+      internalID: 4219475218992821427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indigena1.1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c4c8364cf09ed00800000000000000
+      internalID: 1002349728224791650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indigena1.1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0621c8c8304c2ecf0800000000000000
+      internalID: -224401511893167520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indigena1.1-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc6e635329abc1b0800000000000000
+      internalID: -5635224539535348493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indigena1.1-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a8826d1f83fcdc0800000000000000
+      internalID: -3616609364423964003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2534a39be8915a748bc3ba29d5b14fc3
+    spriteID: 46e9abf6f60909547880e96b7d6c5e94
     internalID: 0
     vertices: []
     indices: 
@@ -364,6 +489,11 @@ TextureImporter:
     nameFileIdTable:
       Indigena1.1-Sheet_0: 5861643231218709656
       Indigena1.1-Sheet_1: -1280660732839069390
+      Indigena1.1-Sheet_10: 4219475218992821427
+      Indigena1.1-Sheet_11: 1002349728224791650
+      Indigena1.1-Sheet_12: -224401511893167520
+      Indigena1.1-Sheet_13: -5635224539535348493
+      Indigena1.1-Sheet_14: -3616609364423964003
       Indigena1.1-Sheet_2: -1405248840900405264
       Indigena1.1-Sheet_3: 2170113703660226237
       Indigena1.1-Sheet_4: 7237543051520060426
