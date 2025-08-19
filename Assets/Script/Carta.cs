@@ -5,6 +5,7 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 {
     Transform originalParent;
     CanvasGroup canvasGroup;
+    public GameObject characterPrefab;
 
     void Start()
     {
@@ -13,16 +14,36 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
-        // Logic for when dragging starts
+        originalParent = transform.parent;
+        transform.SetParent(transform.root);
+        canvasGroup.blocksRaycasts = false;
+        canvasGroup.alpha = 0.6f;
     }
 
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
-        // Logic for dragging the card
+        transform.position = eventData.position;
+        Debug.Log(eventData.position);
     }
 
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
-        // Logic for when dragging ends
+        canvasGroup.blocksRaycasts = true;
+        canvasGroup.alpha = 1f;
+
+        Slot dropSlot = eventData.pointerEnter?.GetComponent<Slot>();
+        if (dropSlot != null)
+        {
+            if (dropSlot.currentCharacter == null)
+            {
+                dropSlot.currentCharacter = Instantiate(characterPrefab, dropSlot.transform);
+                dropSlot.currentCharacter.name = "Character " + dropSlot.transform.childCount;
+                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 50);
+                gameObject.SetActive(false);
+            }
+        }
+
+        transform.SetParent(originalParent);
+        GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
     }
 }
