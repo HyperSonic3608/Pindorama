@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: TelaCombate1SemArvoresSul_1104
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Textures/TileSets/GroundPallete/TelaCombate1SemArvoresSul_1104.asset
   m_Sprite: {fileID: -27739972, guid: 13a97f5d39519744ea127294589ef0fa, type: 3}
+=======
+  m_Sprite: {fileID: -148767193, guid: faed235f28edf6043a63e429b72a0678, type: 3}
+>>>>>>> Stashed changes:Assets/Textures/TileSets/GroundPallete/GroundTileSet_31.asset
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

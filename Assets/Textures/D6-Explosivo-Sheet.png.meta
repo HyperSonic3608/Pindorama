@@ -1,0 +1,1389 @@
+fileFormatVersion: 2
+guid: 30df8e4318d3c1b4ea0899bbf3fdf5e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3623520225947370683
+    second: D6-Explosivo-Sheet_0
+  - first:
+      213: -6207589686054597103
+    second: D6-Explosivo-Sheet_1
+  - first:
+      213: -9124012953405129698
+    second: D6-Explosivo-Sheet_2
+  - first:
+      213: 4998034098606323470
+    second: D6-Explosivo-Sheet_3
+  - first:
+      213: -4926551897451304351
+    second: D6-Explosivo-Sheet_4
+  - first:
+      213: -3503252392650688075
+    second: D6-Explosivo-Sheet_5
+  - first:
+      213: 6373087298368344171
+    second: D6-Explosivo-Sheet_6
+  - first:
+      213: -5298364155619806159
+    second: D6-Explosivo-Sheet_7
+  - first:
+      213: -8786592127847014575
+    second: D6-Explosivo-Sheet_8
+  - first:
+      213: 1961456546689168763
+    second: D6-Explosivo-Sheet_9
+  - first:
+      213: -7877645442267219258
+    second: D6-Explosivo-Sheet_10
+  - first:
+      213: -173381796943444272
+    second: D6-Explosivo-Sheet_11
+  - first:
+      213: 6059855068022814227
+    second: D6-Explosivo-Sheet_12
+  - first:
+      213: 5822221452631726906
+    second: D6-Explosivo-Sheet_13
+  - first:
+      213: -1386356654160645768
+    second: D6-Explosivo-Sheet_14
+  - first:
+      213: -7370428126814393435
+    second: D6-Explosivo-Sheet_15
+  - first:
+      213: -7090857841820478682
+    second: D6-Explosivo-Sheet_16
+  - first:
+      213: -6323330847029314497
+    second: D6-Explosivo-Sheet_17
+  - first:
+      213: -6868977139808796675
+    second: D6-Explosivo-Sheet_18
+  - first:
+      213: -4624232967679396725
+    second: D6-Explosivo-Sheet_19
+  - first:
+      213: -7279009008528982559
+    second: D6-Explosivo-Sheet_20
+  - first:
+      213: -4506668052939322489
+    second: D6-Explosivo-Sheet_21
+  - first:
+      213: -5125862971740284169
+    second: D6-Explosivo-Sheet_22
+  - first:
+      213: -8012835541100519945
+    second: D6-Explosivo-Sheet_23
+  - first:
+      213: -9112656137650058224
+    second: D6-Explosivo-Sheet_24
+  - first:
+      213: 451628437748299516
+    second: D6-Explosivo-Sheet_25
+  - first:
+      213: -2337728667532903023
+    second: D6-Explosivo-Sheet_26
+  - first:
+      213: -6759837033260619512
+    second: D6-Explosivo-Sheet_27
+  - first:
+      213: 4524678617559946259
+    second: D6-Explosivo-Sheet_28
+  - first:
+      213: -4557277236939823393
+    second: D6-Explosivo-Sheet_29
+  - first:
+      213: 6629974500112066369
+    second: D6-Explosivo-Sheet_30
+  - first:
+      213: -4514091223102822770
+    second: D6-Explosivo-Sheet_31
+  - first:
+      213: 6656102827476109802
+    second: D6-Explosivo-Sheet_32
+  - first:
+      213: -8280316384298732460
+    second: D6-Explosivo-Sheet_33
+  - first:
+      213: 9017202234297762291
+    second: D6-Explosivo-Sheet_34
+  - first:
+      213: -8454774005403963041
+    second: D6-Explosivo-Sheet_35
+  - first:
+      213: -2723356998585219400
+    second: D6-Explosivo-Sheet_36
+  - first:
+      213: -8871842311327501343
+    second: D6-Explosivo-Sheet_37
+  - first:
+      213: 6782851397563769952
+    second: D6-Explosivo-Sheet_38
+  - first:
+      213: 6449534407184894242
+    second: D6-Explosivo-Sheet_39
+  - first:
+      213: -814366100821371812
+    second: D6-Explosivo-Sheet_40
+  - first:
+      213: -6789297580552395687
+    second: D6-Explosivo-Sheet_41
+  - first:
+      213: 7579261434212110204
+    second: D6-Explosivo-Sheet_42
+  - first:
+      213: 7789366675643067622
+    second: D6-Explosivo-Sheet_43
+  - first:
+      213: 4869322557784513899
+    second: D6-Explosivo-Sheet_44
+  - first:
+      213: 3595691182129929790
+    second: D6-Explosivo-Sheet_45
+  - first:
+      213: 8340934566057313506
+    second: D6-Explosivo-Sheet_46
+  - first:
+      213: 3870229167418391450
+    second: D6-Explosivo-Sheet_47
+  - first:
+      213: -3434288596793550246
+    second: D6-Explosivo-Sheet_48
+  - first:
+      213: -3173880944754393343
+    second: D6-Explosivo-Sheet_49
+  - first:
+      213: -8105134201948627552
+    second: D6-Explosivo-Sheet_50
+  - first:
+      213: -3499466753758505636
+    second: D6-Explosivo-Sheet_51
+  - first:
+      213: 3690629162331366967
+    second: D6-Explosivo-Sheet_52
+  - first:
+      213: 5073161941198742702
+    second: D6-Explosivo-Sheet_53
+  - first:
+      213: 8464244927233574734
+    second: D6-Explosivo-Sheet_54
+  - first:
+      213: 3819922756389264057
+    second: D6-Explosivo-Sheet_55
+  - first:
+      213: -6116662080922291351
+    second: D6-Explosivo-Sheet_56
+  - first:
+      213: -3982219958928577918
+    second: D6-Explosivo-Sheet_57
+  - first:
+      213: 4586085008139033695
+    second: D6-Explosivo-Sheet_58
+  - first:
+      213: -5281340651429978319
+    second: D6-Explosivo-Sheet_59
+  - first:
+      213: 3914150575293621388
+    second: D6-Explosivo-Sheet_60
+  - first:
+      213: 258869168138968453
+    second: D6-Explosivo-Sheet_61
+  - first:
+      213: -3589540211600878041
+    second: D6-Explosivo-Sheet_62
+  - first:
+      213: -7866834394935573228
+    second: D6-Explosivo-Sheet_63
+  - first:
+      213: 600657100220409808
+    second: D6-Explosivo-Sheet_64
+  - first:
+      213: 586361023048325946
+    second: D6-Explosivo-Sheet_65
+  - first:
+      213: -8484048257824966709
+    second: D6-Explosivo-Sheet_66
+  - first:
+      213: -1076033193733764706
+    second: D6-Explosivo-Sheet_67
+  - first:
+      213: 7822058162605352912
+    second: D6-Explosivo-Sheet_68
+  - first:
+      213: -1180223218139203227
+    second: D6-Explosivo-Sheet_69
+  - first:
+      213: 8434634388301534147
+    second: D6-Explosivo-Sheet_70
+  - first:
+      213: 1912320144353361968
+    second: D6-Explosivo-Sheet_71
+  - first:
+      213: -8907020865536059781
+    second: D6-Explosivo-Sheet_72
+  - first:
+      213: 96602347853091665
+    second: D6-Explosivo-Sheet_73
+  - first:
+      213: -2050254803408437793
+    second: D6-Explosivo-Sheet_74
+  - first:
+      213: 778954563135410930
+    second: D6-Explosivo-Sheet_75
+  - first:
+      213: 5181694342957096411
+    second: D6-Explosivo-Sheet_76
+  - first:
+      213: 3271596238514983861
+    second: D6-Explosivo-Sheet_77
+  - first:
+      213: 456303381498504502
+    second: D6-Explosivo-Sheet_78
+  - first:
+      213: -8089623252888160185
+    second: D6-Explosivo-Sheet_79
+  - first:
+      213: 2853372388575148550
+    second: D6-Explosivo-Sheet_80
+  - first:
+      213: -6276310994055395412
+    second: D6-Explosivo-Sheet_81
+  - first:
+      213: 4817241642967033357
+    second: D6-Explosivo-Sheet_82
+  - first:
+      213: 1972016830358820244
+    second: D6-Explosivo-Sheet_83
+  - first:
+      213: -6063815128945770226
+    second: D6-Explosivo-Sheet_84
+  - first:
+      213: 7736460751907081209
+    second: D6-Explosivo-Sheet_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb449008274594230800000000000000
+      internalID: 3623520225947370683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e465bd1163ad9a0800000000000000
+      internalID: -6207589686054597103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c793a5f8ef06180800000000000000
+      internalID: -9124012953405129698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0738be28859c5540800000000000000
+      internalID: 4998034098606323470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a63e8b62f51abb0800000000000000
+      internalID: -4926551897451304351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9b4898282f16fc0800000000000000
+      internalID: -3503252392650688075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b609ccdb121c17850800000000000000
+      internalID: 6373087298368344171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1347e955fdd6876b0800000000000000
+      internalID: -5298364155619806159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f5f695301cf0680800000000000000
+      internalID: -8786592127847014575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75b5c3465e783b10800000000000000
+      internalID: 1961456546689168763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caff23353bfca290800000000000000
+      internalID: -7877645442267219258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6caae9c26089df0800000000000000
+      internalID: -173381796943444272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316b9dfe31ee81450800000000000000
+      internalID: 6059855068022814227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd5cf409facc050800000000000000
+      internalID: 5822221452631726906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87171c0e7fba2cce0800000000000000
+      internalID: -1386356654160645768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab2eaa3baaf6b990800000000000000
+      internalID: -7370428126814393435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6235f71ac56389d90800000000000000
+      internalID: -7090857841820478682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c3c89d8140f38a0800000000000000
+      internalID: -6323330847029314497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfffa6b4fad7ca0a0800000000000000
+      internalID: -6868977139808796675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84b1dabd9c63dfb0800000000000000
+      internalID: -4624232967679396725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edf2c16fd3cbfa90800000000000000
+      internalID: -7279009008528982559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b43ff78491571c0800000000000000
+      internalID: -4506668052939322489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa971209c64dd8b0800000000000000
+      internalID: -5125862971740284169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd14197780bcc090800000000000000
+      internalID: -8012835541100519945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cc5131687598180800000000000000
+      internalID: -9112656137650058224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6b37adba1844600800000000000000
+      internalID: 451628437748299516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d3476a928be8fd0800000000000000
+      internalID: -2337728667532903023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80968fc880c3032a0800000000000000
+      internalID: -6759837033260619512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314577ada33eace30800000000000000
+      internalID: 4524678617559946259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd66a3d9f7c41c0c0800000000000000
+      internalID: -4557277236939823393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147e3154ea6620c50800000000000000
+      internalID: 6629974500112066369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e866f3303f9ba51c0800000000000000
+      internalID: -4514091223102822770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9cf2c814a3f5c50800000000000000
+      internalID: 6656102827476109802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454f6069e18661d80800000000000000
+      internalID: -8280316384298732460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f14d2b28a9832d70800000000000000
+      internalID: 9017202234297762291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51b0bf56db9aaa80800000000000000
+      internalID: -8454774005403963041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b601ce1d31b43ad0800000000000000
+      internalID: -2723356998585219400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e33b024c62e0e480800000000000000
+      internalID: -8871842311327501343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064ec04b867812e50800000000000000
+      internalID: 6782851397563769952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2294aea4f59518950800000000000000
+      internalID: 6449534407184894242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c541c63985ac2b4f0800000000000000
+      internalID: -814366100821371812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95461cc52d197c1a0800000000000000
+      internalID: -6789297580552395687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fc7062e12fe2960800000000000000
+      internalID: 7579261434212110204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Explosivo-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec68feb8b3691c60800000000000000
+      internalID: 7789366675643067622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 40caa5ab15107df4c87cd8c3c0f0d6c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      D6-Explosivo-Sheet_0: 3623520225947370683
+      D6-Explosivo-Sheet_1: -6207589686054597103
+      D6-Explosivo-Sheet_10: -7877645442267219258
+      D6-Explosivo-Sheet_11: -173381796943444272
+      D6-Explosivo-Sheet_12: 6059855068022814227
+      D6-Explosivo-Sheet_13: 5822221452631726906
+      D6-Explosivo-Sheet_14: -1386356654160645768
+      D6-Explosivo-Sheet_15: -7370428126814393435
+      D6-Explosivo-Sheet_16: -7090857841820478682
+      D6-Explosivo-Sheet_17: -6323330847029314497
+      D6-Explosivo-Sheet_18: -6868977139808796675
+      D6-Explosivo-Sheet_19: -4624232967679396725
+      D6-Explosivo-Sheet_2: -9124012953405129698
+      D6-Explosivo-Sheet_20: -7279009008528982559
+      D6-Explosivo-Sheet_21: -4506668052939322489
+      D6-Explosivo-Sheet_22: -5125862971740284169
+      D6-Explosivo-Sheet_23: -8012835541100519945
+      D6-Explosivo-Sheet_24: -9112656137650058224
+      D6-Explosivo-Sheet_25: 451628437748299516
+      D6-Explosivo-Sheet_26: -2337728667532903023
+      D6-Explosivo-Sheet_27: -6759837033260619512
+      D6-Explosivo-Sheet_28: 4524678617559946259
+      D6-Explosivo-Sheet_29: -4557277236939823393
+      D6-Explosivo-Sheet_3: 4998034098606323470
+      D6-Explosivo-Sheet_30: 6629974500112066369
+      D6-Explosivo-Sheet_31: -4514091223102822770
+      D6-Explosivo-Sheet_32: 6656102827476109802
+      D6-Explosivo-Sheet_33: -8280316384298732460
+      D6-Explosivo-Sheet_34: 9017202234297762291
+      D6-Explosivo-Sheet_35: -8454774005403963041
+      D6-Explosivo-Sheet_36: -2723356998585219400
+      D6-Explosivo-Sheet_37: -8871842311327501343
+      D6-Explosivo-Sheet_38: 6782851397563769952
+      D6-Explosivo-Sheet_39: 6449534407184894242
+      D6-Explosivo-Sheet_4: -4926551897451304351
+      D6-Explosivo-Sheet_40: -814366100821371812
+      D6-Explosivo-Sheet_41: -6789297580552395687
+      D6-Explosivo-Sheet_42: 7579261434212110204
+      D6-Explosivo-Sheet_43: 7789366675643067622
+      D6-Explosivo-Sheet_5: -3503252392650688075
+      D6-Explosivo-Sheet_6: 6373087298368344171
+      D6-Explosivo-Sheet_7: -5298364155619806159
+      D6-Explosivo-Sheet_8: -8786592127847014575
+      D6-Explosivo-Sheet_9: 1961456546689168763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
