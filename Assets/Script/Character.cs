@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private CanvasGroup canvasGroup;
     private CartaController cartaController;
+    public GameObject actionMenuPrefab;
 
     void Start()
     {
@@ -14,7 +15,7 @@ public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(!cartaController.isCardPanelActive){
+        if(!cartaController.isCardPanelActive && GameObject.FindGameObjectWithTag("ActionMenu") == null){
             canvasGroup.alpha = 0.6f;
         }
     }
@@ -23,6 +24,14 @@ public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         if(!cartaController.isCardPanelActive){
             canvasGroup.alpha = 1;
+        }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (!cartaController.isCardPanelActive && GameObject.FindGameObjectWithTag("ActionMenu") == null)
+        {
+            Instantiate(actionMenuPrefab, transform.root);
         }
     }
 }
