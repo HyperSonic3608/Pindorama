@@ -1,3 +1,6 @@
+using System;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -22,8 +25,11 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
+        Debug.Log(eventData.position.x);
+        Debug.Log(eventData.position.y);
+        Debug.Log(transform.position.x);
+        Debug.Log(transform.position.y);
         transform.position = eventData.position;
-        Debug.Log(eventData.position);
     }
 
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
@@ -38,7 +44,7 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             {
                 dropSlot.currentCharacter = Instantiate(characterPrefab, dropSlot.transform);
                 dropSlot.currentCharacter.name = "Character " + dropSlot.transform.childCount;
-                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 50);
+                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 41);
                 gameObject.SetActive(false);
             }
         }
