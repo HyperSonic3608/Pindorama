@@ -44,7 +44,7 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             {
                 dropSlot.currentCharacter = Instantiate(characterPrefab, dropSlot.transform);
                 dropSlot.currentCharacter.name = "Character " + dropSlot.transform.childCount;
-                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 41);
+                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 46);
                 gameObject.SetActive(false);
             }
         }

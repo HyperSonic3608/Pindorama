@@ -1,58 +1,82 @@
 fileFormatVersion: 2
-guid: bb7666557d2a57a449987c1a5f9bdf0c
+guid: d7de96d8899f1124dbbbf9abf8e679de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 54620541728290854
-    second: Sprite-0002-Sheet_0
+      213: -1497225294485915504
+    second: D6-Padrao-Sheet_0
   - first:
-      213: 7977414170037210279
-    second: Sprite-0002-Sheet_1
+      213: -1719092422668319887
+    second: D6-Padrao-Sheet_1
   - first:
-      213: -6017161630642107537
-    second: Sprite-0002-Sheet_2
+      213: 7680387576805346818
+    second: D6-Padrao-Sheet_2
   - first:
-      213: -774171364642349061
-    second: Sprite-0002-Sheet_3
+      213: 1045864117093244369
+    second: D6-Padrao-Sheet_3
   - first:
-      213: 4439951221471878829
-    second: Sprite-0002-Sheet_4
+      213: -7862666009973834257
+    second: D6-Padrao-Sheet_4
   - first:
-      213: 947299383180256026
-    second: Sprite-0002-Sheet_5
+      213: 1382850041894568564
+    second: D6-Padrao-Sheet_5
   - first:
-      213: 2045765137284499509
-    second: Sprite-0002-Sheet_6
+      213: 115556288638830878
+    second: D6-Padrao-Sheet_6
   - first:
-      213: -5832073386481993379
-    second: Sprite-0002-Sheet_7
+      213: 7576958725980718192
+    second: D6-Padrao-Sheet_7
   - first:
-      213: -2049467653533957581
-    second: Sprite-0002-Sheet_8
+      213: 4302024801076805508
+    second: D6-Padrao-Sheet_8
   - first:
-      213: -6445166490165327900
-    second: Sprite-0002-Sheet_9
+      213: -9032903614317054710
+    second: D6-Padrao-Sheet_9
   - first:
-      213: -5205018753010873798
-    second: Sprite-0002-Sheet_10
+      213: -6964390192190845261
+    second: D6-Padrao-Sheet_10
   - first:
-      213: 8196670902797331459
-    second: Sprite-0002-Sheet_11
+      213: 7145258296716570257
+    second: D6-Padrao-Sheet_11
   - first:
-      213: 4431139922622870564
-    second: Sprite-0002-Sheet_12
+      213: 3667841359475851964
+    second: D6-Padrao-Sheet_12
   - first:
-      213: 1156632892089780469
-    second: Sprite-0002-Sheet_13
+      213: 1697616251074427315
+    second: D6-Padrao-Sheet_13
   - first:
-      213: -8117656212705894639
-    second: Sprite-0002-Sheet_14
+      213: -1175938042358308967
+    second: D6-Padrao-Sheet_14
   - first:
-      213: -6085470042097384395
-    second: Sprite-0002-Sheet_15
+      213: -4480324184554694069
+    second: D6-Padrao-Sheet_15
   - first:
-      213: 9178475945090613712
-    second: Sprite-0002-Sheet_16
+      213: 7753290448703417750
+    second: D6-Padrao-Sheet_16
+  - first:
+      213: -3462148466576978498
+    second: D6-Padrao-Sheet_17
+  - first:
+      213: 8497712969121797748
+    second: D6-Padrao-Sheet_18
+  - first:
+      213: 429896285549726207
+    second: D6-Padrao-Sheet_19
+  - first:
+      213: 7449746447451014336
+    second: D6-Padrao-Sheet_20
+  - first:
+      213: -544047248701973951
+    second: D6-Padrao-Sheet_21
+  - first:
+      213: -7999281600296407094
+    second: D6-Padrao-Sheet_22
+  - first:
+      213: -8590898024132277739
+    second: D6-Padrao-Sheet_23
+  - first:
+      213: 7801449382988762382
+    second: D6-Padrao-Sheet_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,54 +172,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: D6-Padrao-Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6287723e71d02c000800000000000000
-      internalID: 54620541728290854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 33
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ac4c37ebe775be60800000000000000
-      internalID: 7977414170037210279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 63
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -207,20 +187,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6b8771906fbe7ca0800000000000000
-      internalID: -6017161630642107537
+      spriteID: 098ff6df689c83be0800000000000000
+      internalID: -1497225294485915504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: D6-Padrao-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1730acabc8e8428e0800000000000000
+      internalID: -1719092422668319887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Padrao-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e4ec40fc7369a60800000000000000
+      internalID: 7680387576805346818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Padrao-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 1
-        width: 29
-        height: 30
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bff963fde379145f0800000000000000
-      internalID: -774171364642349061
+      spriteID: 1dd9bae8fd7a38e00800000000000000
+      internalID: 1045864117093244369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: D6-Padrao-Sheet_4
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
-        width: 28
-        height: 29
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae94efac10ed9d30800000000000000
-      internalID: 4439951221471878829
+      spriteID: fedb8ff0ce232e290800000000000000
+      internalID: -7862666009973834257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
+      name: D6-Padrao-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 1
-        width: 29
-        height: 29
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a13e76e15cb752d00800000000000000
-      internalID: 947299383180256026
+      spriteID: 47282c459ced03310800000000000000
+      internalID: 1382850041894568564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
+      name: D6-Padrao-Sheet_6
       rect:
         serializedVersion: 2
-        x: 194
-        y: 3
-        width: 26
-        height: 24
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53888bdad84046c10800000000000000
-      internalID: 2045765137284499509
+      spriteID: e1941ef05d98a9100800000000000000
+      internalID: 115556288638830878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
+      name: D6-Padrao-Sheet_7
       rect:
         serializedVersion: 2
-        x: 229
-        y: 4
-        width: 21
-        height: 19
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d593bb69720501fa0800000000000000
-      internalID: -5832073386481993379
+      spriteID: 07480eb11d3c62960800000000000000
+      internalID: 7576958725980718192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: D6-Padrao-Sheet_8
       rect:
         serializedVersion: 2
-        x: 264
-        y: 7
-        width: 17
-        height: 14
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33284741704de83e0800000000000000
-      internalID: -2049467653533957581
+      spriteID: 48f7a1373ccd3bb30800000000000000
+      internalID: 4302024801076805508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
+      name: D6-Padrao-Sheet_9
       rect:
         serializedVersion: 2
-        x: 298
-        y: 8
-        width: 12
-        height: 11
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7c173a93b2e86a0800000000000000
-      internalID: -6445166490165327900
+      spriteID: a053a4a650ea4a280800000000000000
+      internalID: -9032903614317054710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_10
+      name: D6-Padrao-Sheet_10
       rect:
         serializedVersion: 2
-        x: 328
-        y: 7
-        width: 17
-        height: 14
+        x: 320
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3a4a81850f04c7b0800000000000000
-      internalID: -5205018753010873798
+      spriteID: 3be0045e404895f90800000000000000
+      internalID: -6964390192190845261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_11
+      name: D6-Padrao-Sheet_11
       rect:
         serializedVersion: 2
-        x: 357
-        y: 4
-        width: 21
-        height: 19
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +429,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30ce30e12cc60c170800000000000000
-      internalID: 8196670902797331459
+      spriteID: 19e243c409e092360800000000000000
+      internalID: 7145258296716570257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_12
+      name: D6-Padrao-Sheet_12
       rect:
         serializedVersion: 2
-        x: 386
-        y: 3
-        width: 26
-        height: 24
+        x: 384
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,20 +451,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 424fcfd48429e7d30800000000000000
-      internalID: 4431139922622870564
+      spriteID: cb24b0c884ac6e230800000000000000
+      internalID: 3667841359475851964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_13
+      name: D6-Padrao-Sheet_13
       rect:
         serializedVersion: 2
         x: 416
-        y: 1
-        width: 29
-        height: 29
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f84b8cbc7f2d0010800000000000000
-      internalID: 1156632892089780469
+      spriteID: 3b9b83a6cf42f8710800000000000000
+      internalID: 1697616251074427315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_14
+      name: D6-Padrao-Sheet_14
       rect:
         serializedVersion: 2
         x: 448
-        y: 1
-        width: 29
-        height: 29
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,20 +495,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11f1ce80faa485f80800000000000000
-      internalID: -8117656212705894639
+      spriteID: 99f5d53b49a3eafe0800000000000000
+      internalID: -1175938042358308967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_15
+      name: D6-Padrao-Sheet_15
       rect:
         serializedVersion: 2
         x: 480
-        y: 1
-        width: 29
-        height: 29
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,20 +517,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53401892d311c8ba0800000000000000
-      internalID: -6085470042097384395
+      spriteID: b4a960554e0b2d1c0800000000000000
+      internalID: -4480324184554694069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_16
+      name: D6-Padrao-Sheet_16
       rect:
         serializedVersion: 2
-        x: 515
-        y: 3
-        width: 26
-        height: 26
+        x: 512
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,8 +539,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d1089e0e3f706f70800000000000000
-      internalID: 9178475945090613712
+      spriteID: 69d656b9598399b60800000000000000
+      internalID: 7753290448703417750
       vertices: []
       indices: 
       edges: []
@@ -525,7 +549,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ecbc48699e4bd41449b0ae8c7b502ef3
     internalID: 0
     vertices: []
     indices: 
@@ -533,25 +557,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 54620541728290854
-      Sprite-0002-Sheet_1: 7977414170037210279
-      Sprite-0002-Sheet_10: -5205018753010873798
-      Sprite-0002-Sheet_11: 8196670902797331459
-      Sprite-0002-Sheet_12: 4431139922622870564
-      Sprite-0002-Sheet_13: 1156632892089780469
-      Sprite-0002-Sheet_14: -8117656212705894639
-      Sprite-0002-Sheet_15: -6085470042097384395
-      Sprite-0002-Sheet_16: 9178475945090613712
-      Sprite-0002-Sheet_2: -6017161630642107537
-      Sprite-0002-Sheet_3: -774171364642349061
-      Sprite-0002-Sheet_4: 4439951221471878829
-      Sprite-0002-Sheet_5: 947299383180256026
-      Sprite-0002-Sheet_6: 2045765137284499509
-      Sprite-0002-Sheet_7: -5832073386481993379
-      Sprite-0002-Sheet_8: -2049467653533957581
-      Sprite-0002-Sheet_9: -6445166490165327900
+      D6-Padrao-Sheet_0: -1497225294485915504
+      D6-Padrao-Sheet_1: -1719092422668319887
+      D6-Padrao-Sheet_10: -6964390192190845261
+      D6-Padrao-Sheet_11: 7145258296716570257
+      D6-Padrao-Sheet_12: 3667841359475851964
+      D6-Padrao-Sheet_13: 1697616251074427315
+      D6-Padrao-Sheet_14: -1175938042358308967
+      D6-Padrao-Sheet_15: -4480324184554694069
+      D6-Padrao-Sheet_16: 7753290448703417750
+      D6-Padrao-Sheet_2: 7680387576805346818
+      D6-Padrao-Sheet_3: 1045864117093244369
+      D6-Padrao-Sheet_4: -7862666009973834257
+      D6-Padrao-Sheet_5: 1382850041894568564
+      D6-Padrao-Sheet_6: 115556288638830878
+      D6-Padrao-Sheet_7: 7576958725980718192
+      D6-Padrao-Sheet_8: 4302024801076805508
+      D6-Padrao-Sheet_9: -9032903614317054710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

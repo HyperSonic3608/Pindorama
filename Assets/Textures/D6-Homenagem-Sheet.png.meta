@@ -1,58 +1,85 @@
 fileFormatVersion: 2
-guid: bb7666557d2a57a449987c1a5f9bdf0c
+guid: 09a3463e3d0a29947b4dcca7668418b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 54620541728290854
-    second: Sprite-0002-Sheet_0
+      213: 2305457167959573303
+    second: D6-Homenagem-Sheet_0
   - first:
-      213: 7977414170037210279
-    second: Sprite-0002-Sheet_1
+      213: -7457524963022772707
+    second: D6-Homenagem-Sheet_1
   - first:
-      213: -6017161630642107537
-    second: Sprite-0002-Sheet_2
+      213: -7069945576874797522
+    second: D6-Homenagem-Sheet_2
   - first:
-      213: -774171364642349061
-    second: Sprite-0002-Sheet_3
+      213: 3370609979020294111
+    second: D6-Homenagem-Sheet_3
   - first:
-      213: 4439951221471878829
-    second: Sprite-0002-Sheet_4
+      213: 4702509148055988840
+    second: D6-Homenagem-Sheet_4
   - first:
-      213: 947299383180256026
-    second: Sprite-0002-Sheet_5
+      213: -3046537501845834475
+    second: D6-Homenagem-Sheet_5
   - first:
-      213: 2045765137284499509
-    second: Sprite-0002-Sheet_6
+      213: -6301975852015471121
+    second: D6-Homenagem-Sheet_6
   - first:
-      213: -5832073386481993379
-    second: Sprite-0002-Sheet_7
+      213: -8308512432922146933
+    second: D6-Homenagem-Sheet_7
   - first:
-      213: -2049467653533957581
-    second: Sprite-0002-Sheet_8
+      213: -7733586108073961580
+    second: D6-Homenagem-Sheet_8
   - first:
-      213: -6445166490165327900
-    second: Sprite-0002-Sheet_9
+      213: -7697708712859329138
+    second: D6-Homenagem-Sheet_9
   - first:
-      213: -5205018753010873798
-    second: Sprite-0002-Sheet_10
+      213: -8970740877966730910
+    second: D6-Homenagem-Sheet_10
   - first:
-      213: 8196670902797331459
-    second: Sprite-0002-Sheet_11
+      213: 2838072607147382777
+    second: D6-Homenagem-Sheet_11
   - first:
-      213: 4431139922622870564
-    second: Sprite-0002-Sheet_12
+      213: 6707810970442103576
+    second: D6-Homenagem-Sheet_12
   - first:
-      213: 1156632892089780469
-    second: Sprite-0002-Sheet_13
+      213: -8458574766082336868
+    second: D6-Homenagem-Sheet_13
   - first:
-      213: -8117656212705894639
-    second: Sprite-0002-Sheet_14
+      213: 4525693533588248680
+    second: D6-Homenagem-Sheet_14
   - first:
-      213: -6085470042097384395
-    second: Sprite-0002-Sheet_15
+      213: -1669280473973790747
+    second: D6-Homenagem-Sheet_15
   - first:
-      213: 9178475945090613712
-    second: Sprite-0002-Sheet_16
+      213: 8754141622442774627
+    second: D6-Homenagem-Sheet_16
+  - first:
+      213: -4772645153107619095
+    second: D6-Homenagem-Sheet_17
+  - first:
+      213: -4270319254734788653
+    second: D6-Homenagem-Sheet_18
+  - first:
+      213: 6681874562224183889
+    second: D6-Homenagem-Sheet_19
+  - first:
+      213: -7215211806065348553
+    second: D6-Homenagem-Sheet_20
+  - first:
+      213: 750907385233173121
+    second: D6-Homenagem-Sheet_21
+  - first:
+      213: 5887874691957028150
+    second: D6-Homenagem-Sheet_22
+  - first:
+      213: -497828521235622701
+    second: D6-Homenagem-Sheet_23
+  - first:
+      213: -3968433266483433183
+    second: D6-Homenagem-Sheet_24
+  - first:
+      213: 3732422307176204125
+    second: D6-Homenagem-Sheet_25
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,35 +175,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: D6-Homenagem-Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6287723e71d02c000800000000000000
-      internalID: 54620541728290854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 31
+        x: 0
         y: 0
-        width: 33
-        height: 32
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ac4c37ebe775be60800000000000000
-      internalID: 7977414170037210279
+      spriteID: 733cb155411aeff10800000000000000
+      internalID: 2305457167959573303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
+      name: D6-Homenagem-Sheet_1
       rect:
         serializedVersion: 2
-        x: 63
+        x: 66
         y: 0
-        width: 32
-        height: 32
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6b8771906fbe7ca0800000000000000
-      internalID: -6017161630642107537
+      spriteID: d166b6bce8c818890800000000000000
+      internalID: -7457524963022772707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: D6-Homenagem-Sheet_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1
-        width: 29
-        height: 30
+        x: 132
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bff963fde379145f0800000000000000
-      internalID: -774171364642349061
+      spriteID: e26980db4f182ed90800000000000000
+      internalID: -7069945576874797522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: D6-Homenagem-Sheet_3
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
-        width: 28
-        height: 29
+        x: 198
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,86 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae94efac10ed9d30800000000000000
-      internalID: 4439951221471878829
+      spriteID: fd734ebeaefc6ce20800000000000000
+      internalID: 3370609979020294111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a13e76e15cb752d00800000000000000
-      internalID: 947299383180256026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 3
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53888bdad84046c10800000000000000
-      internalID: 2045765137284499509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 4
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d593bb69720501fa0800000000000000
-      internalID: -5832073386481993379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: D6-Homenagem-Sheet_4
       rect:
         serializedVersion: 2
         x: 264
-        y: 7
-        width: 17
-        height: 14
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33284741704de83e0800000000000000
-      internalID: -2049467653533957581
+      spriteID: 86ae6eab72ba24140800000000000000
+      internalID: 4702509148055988840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
+      name: D6-Homenagem-Sheet_5
       rect:
         serializedVersion: 2
-        x: 298
-        y: 8
-        width: 12
-        height: 11
+        x: 330
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7c173a93b2e86a0800000000000000
-      internalID: -6445166490165327900
+      spriteID: 515b297884688b5d0800000000000000
+      internalID: -3046537501845834475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_10
+      name: D6-Homenagem-Sheet_6
       rect:
         serializedVersion: 2
-        x: 328
-        y: 7
-        width: 17
-        height: 14
+        x: 396
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3a4a81850f04c7b0800000000000000
-      internalID: -5205018753010873798
+      spriteID: fe537851a52ea88a0800000000000000
+      internalID: -6301975852015471121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_11
+      name: D6-Homenagem-Sheet_7
       rect:
         serializedVersion: 2
-        x: 357
-        y: 4
-        width: 21
-        height: 19
+        x: 462
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +344,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30ce30e12cc60c170800000000000000
-      internalID: 8196670902797331459
+      spriteID: b8742cf66fb32bc80800000000000000
+      internalID: -8308512432922146933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_12
+      name: D6-Homenagem-Sheet_8
       rect:
         serializedVersion: 2
-        x: 386
-        y: 3
-        width: 26
-        height: 24
+        x: 528
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,20 +366,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 424fcfd48429e7d30800000000000000
-      internalID: 4431139922622870564
+      spriteID: 4971b54b868cca490800000000000000
+      internalID: -7733586108073961580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_13
+      name: D6-Homenagem-Sheet_9
       rect:
         serializedVersion: 2
-        x: 416
-        y: 1
-        width: 29
-        height: 29
+        x: 594
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f84b8cbc7f2d0010800000000000000
-      internalID: 1156632892089780469
+      spriteID: e8d1799b5be3c2590800000000000000
+      internalID: -7697708712859329138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_14
+      name: D6-Homenagem-Sheet_10
       rect:
         serializedVersion: 2
-        x: 448
-        y: 1
-        width: 29
-        height: 29
+        x: 660
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11f1ce80faa485f80800000000000000
-      internalID: -8117656212705894639
+      spriteID: 26997b453b6818380800000000000000
+      internalID: -8970740877966730910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_15
+      name: D6-Homenagem-Sheet_11
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1
-        width: 29
-        height: 29
+        x: 726
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,20 +432,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53401892d311c8ba0800000000000000
-      internalID: -6085470042097384395
+      spriteID: 9f759cbdffbd26720800000000000000
+      internalID: 2838072607147382777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_16
+      name: D6-Homenagem-Sheet_12
       rect:
         serializedVersion: 2
-        x: 515
-        y: 3
-        width: 26
-        height: 26
+        x: 792
+        y: 0
+        width: 66
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,8 +454,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d1089e0e3f706f70800000000000000
-      internalID: 9178475945090613712
+      spriteID: 81b7ba1c98ee61d50800000000000000
+      internalID: 6707810970442103576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Homenagem-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c975491d01b1d9a80800000000000000
+      internalID: -8458574766082336868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Homenagem-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8685fc76a4e7ece30800000000000000
+      internalID: 4525693533588248680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Homenagem-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7eb4ec04685d8e0800000000000000
+      internalID: -1669280473973790747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Homenagem-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360d9279c65fc7970800000000000000
+      internalID: 8754141622442774627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Homenagem-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2d702158824cdb0800000000000000
+      internalID: -4772645153107619095
       vertices: []
       indices: 
       edges: []
@@ -525,7 +574,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 01078bf9faa2cad4bb0082aaa5c45697
     internalID: 0
     vertices: []
     indices: 
@@ -533,25 +582,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":66.0,"y":82.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 54620541728290854
-      Sprite-0002-Sheet_1: 7977414170037210279
-      Sprite-0002-Sheet_10: -5205018753010873798
-      Sprite-0002-Sheet_11: 8196670902797331459
-      Sprite-0002-Sheet_12: 4431139922622870564
-      Sprite-0002-Sheet_13: 1156632892089780469
-      Sprite-0002-Sheet_14: -8117656212705894639
-      Sprite-0002-Sheet_15: -6085470042097384395
-      Sprite-0002-Sheet_16: 9178475945090613712
-      Sprite-0002-Sheet_2: -6017161630642107537
-      Sprite-0002-Sheet_3: -774171364642349061
-      Sprite-0002-Sheet_4: 4439951221471878829
-      Sprite-0002-Sheet_5: 947299383180256026
-      Sprite-0002-Sheet_6: 2045765137284499509
-      Sprite-0002-Sheet_7: -5832073386481993379
-      Sprite-0002-Sheet_8: -2049467653533957581
-      Sprite-0002-Sheet_9: -6445166490165327900
+      D6-Homenagem-Sheet_0: 2305457167959573303
+      D6-Homenagem-Sheet_1: -7457524963022772707
+      D6-Homenagem-Sheet_10: -8970740877966730910
+      D6-Homenagem-Sheet_11: 2838072607147382777
+      D6-Homenagem-Sheet_12: 6707810970442103576
+      D6-Homenagem-Sheet_13: -8458574766082336868
+      D6-Homenagem-Sheet_14: 4525693533588248680
+      D6-Homenagem-Sheet_15: -1669280473973790747
+      D6-Homenagem-Sheet_16: 8754141622442774627
+      D6-Homenagem-Sheet_17: -4772645153107619095
+      D6-Homenagem-Sheet_2: -7069945576874797522
+      D6-Homenagem-Sheet_3: 3370609979020294111
+      D6-Homenagem-Sheet_4: 4702509148055988840
+      D6-Homenagem-Sheet_5: -3046537501845834475
+      D6-Homenagem-Sheet_6: -6301975852015471121
+      D6-Homenagem-Sheet_7: -8308512432922146933
+      D6-Homenagem-Sheet_8: -7733586108073961580
+      D6-Homenagem-Sheet_9: -7697708712859329138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

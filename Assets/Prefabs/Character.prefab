@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 78, y: 144}
+  m_SizeDelta: {x: 78, y: 156}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3185130958079958016
 CanvasRenderer:
@@ -101,4 +101,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c56188df8168c4d4ebe13e1f6f7b1b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionMenuPrefab: {fileID: 6999508451605039845, guid: 96d3387c2c32afd42bd7117560432ed8, type: 3}
+  cartaController: {fileID: 0}
+  actionMenu: {fileID: 1441330705920964243}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6ff2b47568472624eae8ae2266792a41
+guid: ac16931b6ce622f44af7f00a3d353793
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8836687265319136825
-    second: carta8Fundo_0
+      213: 3959922740387019359
+    second: X_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: carta8Fundo_0
+      name: X_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 340
-        height: 500
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93ea090cf3832aa70800000000000000
-      internalID: 8836687265319136825
+      spriteID: f5a72c670c874f630800000000000000
+      internalID: 3959922740387019359
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      carta8Fundo_0: 8836687265319136825
+      X_0: 3959922740387019359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
