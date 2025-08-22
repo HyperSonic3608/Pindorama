@@ -1,58 +1,43 @@
 fileFormatVersion: 2
-guid: bb7666557d2a57a449987c1a5f9bdf0c
+guid: fe616a79f49be574f9e7de9aea8c5071
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 54620541728290854
-    second: Sprite-0002-Sheet_0
+      213: 9026555566831998723
+    second: D6-Psicodelico-Sheet_0
   - first:
-      213: 7977414170037210279
-    second: Sprite-0002-Sheet_1
+      213: 722533737616936758
+    second: D6-Psicodelico-Sheet_1
   - first:
-      213: -6017161630642107537
-    second: Sprite-0002-Sheet_2
+      213: -5435556569306410518
+    second: D6-Psicodelico-Sheet_2
   - first:
-      213: -774171364642349061
-    second: Sprite-0002-Sheet_3
+      213: -8299485717529196753
+    second: D6-Psicodelico-Sheet_3
   - first:
-      213: 4439951221471878829
-    second: Sprite-0002-Sheet_4
+      213: 3668958578258727488
+    second: D6-Psicodelico-Sheet_4
   - first:
-      213: 947299383180256026
-    second: Sprite-0002-Sheet_5
+      213: 6673160967963840627
+    second: D6-Psicodelico-Sheet_5
   - first:
-      213: 2045765137284499509
-    second: Sprite-0002-Sheet_6
+      213: 6307947711246698292
+    second: D6-Psicodelico-Sheet_6
   - first:
-      213: -5832073386481993379
-    second: Sprite-0002-Sheet_7
+      213: -6173363593178790095
+    second: D6-Psicodelico-Sheet_7
   - first:
-      213: -2049467653533957581
-    second: Sprite-0002-Sheet_8
+      213: -6685987045845712056
+    second: D6-Psicodelico-Sheet_8
   - first:
-      213: -6445166490165327900
-    second: Sprite-0002-Sheet_9
+      213: 182410198372224880
+    second: D6-Psicodelico-Sheet_9
   - first:
-      213: -5205018753010873798
-    second: Sprite-0002-Sheet_10
+      213: -3627308873102997722
+    second: D6-Psicodelico-Sheet_10
   - first:
-      213: 8196670902797331459
-    second: Sprite-0002-Sheet_11
-  - first:
-      213: 4431139922622870564
-    second: Sprite-0002-Sheet_12
-  - first:
-      213: 1156632892089780469
-    second: Sprite-0002-Sheet_13
-  - first:
-      213: -8117656212705894639
-    second: Sprite-0002-Sheet_14
-  - first:
-      213: -6085470042097384395
-    second: Sprite-0002-Sheet_15
-  - first:
-      213: 9178475945090613712
-    second: Sprite-0002-Sheet_16
+      213: 1625921478012150854
+    second: D6-Psicodelico-Sheet_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,54 +133,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: D6-Psicodelico-Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6287723e71d02c000800000000000000
-      internalID: 54620541728290854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 33
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ac4c37ebe775be60800000000000000
-      internalID: 7977414170037210279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 63
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -207,20 +148,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6b8771906fbe7ca0800000000000000
-      internalID: -6017161630642107537
+      spriteID: 307985a9674c44d70800000000000000
+      internalID: 9026555566831998723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: D6-Psicodelico-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f84e03b94f60a00800000000000000
+      internalID: 722533737616936758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Psicodelico-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae153f959160194b0800000000000000
+      internalID: -5435556569306410518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6-Psicodelico-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 1
-        width: 29
-        height: 30
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bff963fde379145f0800000000000000
-      internalID: -774171364642349061
+      spriteID: f278e3466bd42dc80800000000000000
+      internalID: -8299485717529196753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: D6-Psicodelico-Sheet_4
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
-        width: 28
-        height: 29
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae94efac10ed9d30800000000000000
-      internalID: 4439951221471878829
+      spriteID: 042dbb05362cae230800000000000000
+      internalID: 3668958578258727488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
+      name: D6-Psicodelico-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 1
-        width: 29
-        height: 29
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a13e76e15cb752d00800000000000000
-      internalID: 947299383180256026
+      spriteID: 3709c706b84db9c50800000000000000
+      internalID: 6673160967963840627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
+      name: D6-Psicodelico-Sheet_6
       rect:
         serializedVersion: 2
-        x: 194
-        y: 3
-        width: 26
-        height: 24
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53888bdad84046c10800000000000000
-      internalID: 2045765137284499509
+      spriteID: 437099eb5055a8750800000000000000
+      internalID: 6307947711246698292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
+      name: D6-Psicodelico-Sheet_7
       rect:
         serializedVersion: 2
-        x: 229
-        y: 4
-        width: 21
-        height: 19
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d593bb69720501fa0800000000000000
-      internalID: -5832073386481993379
+      spriteID: 137cf37158ec35aa0800000000000000
+      internalID: -6173363593178790095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: D6-Psicodelico-Sheet_8
       rect:
         serializedVersion: 2
-        x: 264
-        y: 7
-        width: 17
-        height: 14
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33284741704de83e0800000000000000
-      internalID: -2049467653533957581
+      spriteID: 843c087a43a9633a0800000000000000
+      internalID: -6685987045845712056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
+      name: D6-Psicodelico-Sheet_9
       rect:
         serializedVersion: 2
-        x: 298
-        y: 8
-        width: 12
-        height: 11
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7c173a93b2e86a0800000000000000
-      internalID: -6445166490165327900
+      spriteID: 07f8265eb1d088200800000000000000
+      internalID: 182410198372224880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_10
+      name: D6-Psicodelico-Sheet_10
       rect:
         serializedVersion: 2
-        x: 328
-        y: 7
-        width: 17
-        height: 14
+        x: 320
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3a4a81850f04c7b0800000000000000
-      internalID: -5205018753010873798
+      spriteID: 627c2185cc539adc0800000000000000
+      internalID: -3627308873102997722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_11
+      name: D6-Psicodelico-Sheet_11
       rect:
         serializedVersion: 2
-        x: 357
-        y: 4
-        width: 21
-        height: 19
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,118 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30ce30e12cc60c170800000000000000
-      internalID: 8196670902797331459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 3
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 424fcfd48429e7d30800000000000000
-      internalID: 4431139922622870564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 1
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f84b8cbc7f2d0010800000000000000
-      internalID: 1156632892089780469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11f1ce80faa485f80800000000000000
-      internalID: -8117656212705894639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 1
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53401892d311c8ba0800000000000000
-      internalID: -6085470042097384395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 515
-        y: 3
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d1089e0e3f706f70800000000000000
-      internalID: 9178475945090613712
+      spriteID: 644a79148fe609610800000000000000
+      internalID: 1625921478012150854
       vertices: []
       indices: 
       edges: []
@@ -525,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7bd6f04bc9bfcc148afc858981e3e510
     internalID: 0
     vertices: []
     indices: 
@@ -533,25 +408,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 54620541728290854
-      Sprite-0002-Sheet_1: 7977414170037210279
-      Sprite-0002-Sheet_10: -5205018753010873798
-      Sprite-0002-Sheet_11: 8196670902797331459
-      Sprite-0002-Sheet_12: 4431139922622870564
-      Sprite-0002-Sheet_13: 1156632892089780469
-      Sprite-0002-Sheet_14: -8117656212705894639
-      Sprite-0002-Sheet_15: -6085470042097384395
-      Sprite-0002-Sheet_16: 9178475945090613712
-      Sprite-0002-Sheet_2: -6017161630642107537
-      Sprite-0002-Sheet_3: -774171364642349061
-      Sprite-0002-Sheet_4: 4439951221471878829
-      Sprite-0002-Sheet_5: 947299383180256026
-      Sprite-0002-Sheet_6: 2045765137284499509
-      Sprite-0002-Sheet_7: -5832073386481993379
-      Sprite-0002-Sheet_8: -2049467653533957581
-      Sprite-0002-Sheet_9: -6445166490165327900
+      D6-Psicodelico-Sheet_0: 9026555566831998723
+      D6-Psicodelico-Sheet_1: 722533737616936758
+      D6-Psicodelico-Sheet_10: -3627308873102997722
+      D6-Psicodelico-Sheet_11: 1625921478012150854
+      D6-Psicodelico-Sheet_2: -5435556569306410518
+      D6-Psicodelico-Sheet_3: -8299485717529196753
+      D6-Psicodelico-Sheet_4: 3668958578258727488
+      D6-Psicodelico-Sheet_5: 6673160967963840627
+      D6-Psicodelico-Sheet_6: 6307947711246698292
+      D6-Psicodelico-Sheet_7: -6173363593178790095
+      D6-Psicodelico-Sheet_8: -6685987045845712056
+      D6-Psicodelico-Sheet_9: 182410198372224880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
