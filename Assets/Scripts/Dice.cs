@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Dado : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private CombatLogic combatLogic;
     private Animator animator;
     void Start()
     {
@@ -21,7 +21,7 @@ public class Dado : MonoBehaviour
     public void RollDice()
     {
         int randomValue = Random.Range(1, 6);
-        animator.SetBool("Roll", true);
         animator.SetFloat("DiceValue", randomValue);
+        animator.SetBool("Roll", true);
     }
 }

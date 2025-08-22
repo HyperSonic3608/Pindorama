@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 450997929}
   - component: {fileID: 450997928}
   m_Layer: 5
-  m_Name: CartasPanel
+  m_Name: CardsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 857835225}
   - component: {fileID: 857835226}
   m_Layer: 5
-  m_Name: Dado
+  m_Name: Dice
   m_TagString: Dice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1040,11 +1040,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3455138964592296348}
+  - {fileID: 857835222}
   - {fileID: 1553076409}
   - {fileID: 959209678}
+  - {fileID: 3455138964592296348}
   - {fileID: 450997927}
-  - {fileID: 857835222}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1061,6 +1061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2016785659}
+  - component: {fileID: 2016785661}
   - component: {fileID: 2016785660}
   - component: {fileID: 2016785658}
   m_Layer: 0
@@ -1082,10 +1083,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a3c855af8cc034eb0e76be72ba354b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cartaPanel: {fileID: 450997926}
-  cartaPrefab: {fileID: 804700693853025379, guid: 3fa4fdf6c6f4e1c43bf18c823e5437d8, type: 3}
-  playerGrid: {fileID: 1553076408}
-  cartaCount: 5
+  cardPanel: {fileID: 450997926}
+  cardPrefab: {fileID: 804700693853025379, guid: 3fa4fdf6c6f4e1c43bf18c823e5437d8, type: 3}
+  slotController: {fileID: 2016785660}
+  combatLogic: {fileID: 2016785661}
   isCardPanelActive: 1
 --- !u!4 &2016785659
 Transform:
@@ -1120,8 +1121,23 @@ MonoBehaviour:
   slotPlayerPrefab: {fileID: 3081983756029666140, guid: e29093654713cd84fbe669590c682ead, type: 3}
   slotEnemyPrefab: {fileID: 3081983756029666140, guid: 04cd5882d7e8cc74ab6c82dd5c8a875a, type: 3}
   EnemyPrefab: {fileID: 1441330705920964243, guid: d77aa7b6491e33e4083eef550d65298e, type: 3}
-  slotPlayerCount: 3
-  slotEnemyCount: 3
+--- !u!114 &2016785661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016785657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af321a401fdbfd47b51d455b0cd9540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotController: {fileID: 2016785660}
+  cardController: {fileID: 2016785658}
+  playerCount: 3
+  enemyCount: 3
+  cardCount: 5
 --- !u!1 &2039215508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,7 +1783,7 @@ GameObject:
   - component: {fileID: 1753930603751908757}
   - component: {fileID: 8162255016767997960}
   m_Layer: 5
-  m_Name: AtaqueFisicoButton
+  m_Name: PhysicalAttackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1837,8 +1853,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ataque
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8e148e254c5fde340bcc9f2fb8db108b, type: 2}
-  m_sharedMaterial: {fileID: 4240015243597272876, guid: 8e148e254c5fde340bcc9f2fb8db108b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
+  m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1862,8 +1878,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1924,8 +1940,8 @@ MonoBehaviour:
   - {fileID: 8699194474544485191}
   - {fileID: 9178260564260338677}
   characterImage: {fileID: 1476851725099055688}
+  combatLogic: {fileID: 2016785661}
   lastButtonPressed: {fileID: 0}
-  isEnemySelected: 0
 --- !u!114 &3729648258593435931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2127,7 +2143,7 @@ GameObject:
   - component: {fileID: 1453546996506861349}
   - component: {fileID: 5320717598228622698}
   m_Layer: 5
-  m_Name: AtaqueMagicoButton
+  m_Name: MagicAttackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2421,8 +2437,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ataque
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8e148e254c5fde340bcc9f2fb8db108b, type: 2}
-  m_sharedMaterial: {fileID: 4240015243597272876, guid: 8e148e254c5fde340bcc9f2fb8db108b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
+  m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2446,8 +2462,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2586,8 +2602,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ataque
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8e148e254c5fde340bcc9f2fb8db108b, type: 2}
-  m_sharedMaterial: {fileID: 4240015243597272876, guid: 8e148e254c5fde340bcc9f2fb8db108b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
+  m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2611,8 +2627,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

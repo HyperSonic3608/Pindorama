@@ -7,8 +7,8 @@ public class ActionMenu : MonoBehaviour
     public GameObject character;
     [SerializeField] private GameObject[] actionButtons;
     [SerializeField] private Image characterImage;
+    [SerializeField] private CombatLogic combatLogic;
     public GameObject lastButtonPressed;
-    public bool isEnemySelected;
 
     public void UpdateImage()
     {
@@ -17,6 +17,7 @@ public class ActionMenu : MonoBehaviour
     public void Close()
     {
         transform.SetPositionAndRotation(new Vector3(transform.position.x * -1, transform.position.y, transform.position.z), transform.rotation);
+        combatLogic.UpdateCombatPhase(1);
     }
 
     public void TipoAtaque(int tipoAtaque)
@@ -47,5 +48,6 @@ public class ActionMenu : MonoBehaviour
     public void ActionButton(GameObject button)
     {
         lastButtonPressed = button;
+        combatLogic.UpdateCombatPhase(3);
     }
 }

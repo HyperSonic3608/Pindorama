@@ -3,16 +3,17 @@ using UnityEngine.UI;
 
 public class SlotController : MonoBehaviour
 {
-    public GameObject playerHorizontalPanel;
-    public GameObject enemyHorizontalPanel;
-    public GameObject verticalPrefab;
-    public GameObject slotPlayerPrefab;
-    public GameObject slotEnemyPrefab;
-    public GameObject EnemyPrefab;
-    public int slotPlayerCount;
-    public int slotEnemyCount;
+    [SerializeField] private GameObject playerHorizontalPanel;
+    [SerializeField] private GameObject enemyHorizontalPanel;
+    [SerializeField] private GameObject verticalPrefab;
+    [SerializeField] private GameObject slotPlayerPrefab;
+    [SerializeField] private GameObject slotEnemyPrefab;
+    [SerializeField] private GameObject EnemyPrefab;
+    private int slotPlayerCount;
+    private int slotEnemyCount;
+    private Slot[] slots;
 
-    void SlotCreator(int i, bool isPlayer)
+    private void SlotCreator(int i, bool isPlayer)
     {
         GameObject verticalSlot = Instantiate(verticalPrefab, isPlayer ? playerHorizontalPanel.transform : enemyHorizontalPanel.transform);
         verticalSlot.name = "VerticalPanel " + (i / 2 + 1);
@@ -27,11 +28,18 @@ public class SlotController : MonoBehaviour
                 enemy.name = "Enemy " + (i + j + 1);
                 enemy.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 30);
             }
+            else
+            {
+                slots[i + j] = slot.GetComponent<Slot>();
+            }
         }
     }
 
-    void Start()
+    public void SlotCreator(int slotPlayerCount, int slotEnemyCount)
     {
+        slots = new Slot[slotPlayerCount];
+        this.slotPlayerCount = slotPlayerCount;
+        this.slotEnemyCount = slotEnemyCount;
         for (int i = 0; i < slotPlayerCount; i += 2)
         {
             SlotCreator(i, true);
@@ -41,5 +49,10 @@ public class SlotController : MonoBehaviour
         {
             SlotCreator(i, false);
         }
+    }
+
+    public Slot[] GetSlots()
+    {
+        return slots;
     }
 }
