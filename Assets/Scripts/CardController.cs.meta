@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f6a3c855af8cc034eb0e76be72ba354b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cartaPanel: {instanceID: 0}
+  - cartaPrefab: {fileID: 804700693853025379, guid: 3fa4fdf6c6f4e1c43bf18c823e5437d8, type: 3}
+  - playerGrid: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4def3abd8dd043e458351e9bb934e45e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerHorizontalPanel: {instanceID: 0}
+  - enemyHorizontalPanel: {instanceID: 0}
+  - verticalPrefab: {fileID: 1634706893277466970, guid: bf86deebe7d0727469081650a3ca5531, type: 3}
+  - slotPlayerPrefab: {fileID: 3081983756029666140, guid: e29093654713cd84fbe669590c682ead, type: 3}
+  - slotEnemyPrefab: {fileID: 3081983756029666140, guid: 04cd5882d7e8cc74ab6c82dd5c8a875a, type: 3}
+  - EnemyPrefab: {fileID: 1441330705920964243, guid: d77aa7b6491e33e4083eef550d65298e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

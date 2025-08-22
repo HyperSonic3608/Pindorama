@@ -25,10 +25,6 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
-        Debug.Log(eventData.position.x);
-        Debug.Log(eventData.position.y);
-        Debug.Log(transform.position.x);
-        Debug.Log(transform.position.y);
         transform.position = eventData.position;
     }
 

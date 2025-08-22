@@ -4,19 +4,19 @@ using UnityEngine.EventSystems;
 public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private CanvasGroup canvasGroup;
-    private CartaController cartaController;
+    private CombatLogic combatLogic;
     private GameObject actionMenu;
 
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        cartaController = GameObject.FindGameObjectWithTag("Logic").GetComponent<CartaController>();
+        combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         actionMenu = GameObject.FindGameObjectWithTag("ActionMenu");
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!cartaController.isCardPanelActive && actionMenu.transform.position.x < 0)
+        if (combatLogic.GetCombatPhase() == 1)
         {
             canvasGroup.alpha = 0.6f;
         }
@@ -24,18 +24,17 @@ public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if(!cartaController.isCardPanelActive){
-            canvasGroup.alpha = 1;
-        }
+        canvasGroup.alpha = 1;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (!cartaController.isCardPanelActive && actionMenu.transform.position.x < 0)
+        if (combatLogic.GetCombatPhase() == 1)
         {
             actionMenu.transform.SetPositionAndRotation(new Vector3(actionMenu.transform.position.x * -1, actionMenu.transform.position.y, actionMenu.transform.position.z), actionMenu.transform.rotation);
             actionMenu.GetComponent<ActionMenu>().character = gameObject;
             actionMenu.GetComponent<ActionMenu>().UpdateImage();
+            combatLogic.UpdateCombatPhase(2);
         }
     }
 }
