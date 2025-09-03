@@ -16,7 +16,6 @@ public class LevelControllerScript : MonoBehaviour
         if (playerBoxCollider2D.IsTouching(boxCollider2D))
         {
             SceneManager.LoadScene("CombatScreen");
-            Debug.Log("Hello World!");
         }
     }
 
