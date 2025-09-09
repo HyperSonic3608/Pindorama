@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c09de7152eba0146a6ecc38b8f64d6b
-      internalID: -1351218531
+      spriteID: e10fb2ab9d6fba64384483678dd494cf
+      internalID: 1202509896
       vertices: []
       indices: 
       edges: []
@@ -159,8 +159,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503c48ec573ef8a4d92f0c4b4c4fe46f
-      internalID: -1402184671
+      spriteID: 841ac281d39a0f44e9b4732f3f8f0949
+      internalID: -1651971024
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10427bdf76e852c42a690273438c5f5f
-      internalID: -1523532172
+      spriteID: 5acca6286a309954997ad87ee46e0efc
+      internalID: 1986293972
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b75a0c6ac232dbe4c8c0a9ff61ff0793
-      internalID: -903497047
+      spriteID: b6247c8a6ee656e4aa8fcce6d2c086ed
+      internalID: 480014718
       vertices: []
       indices: 
       edges: []
@@ -225,8 +225,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeeb641fdfdace3459c84f0ede66bfa7
-      internalID: 23120735
+      spriteID: acde056f1aa90f44ea3fc6aa9ceeb940
+      internalID: -678470692
       vertices: []
       indices: 
       edges: []
@@ -235,7 +235,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0fda6bb4be3898d42a3eaec1cead3d33
+    spriteID: 3c15c281ab605d9438bdad7df25aaa01
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +248,11 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Guarana_0: 8213346612779834501
-      Guarana_1: -1351218531
-      Guarana_2: -1402184671
-      Guarana_3: -1523532172
-      Guarana_4: -903497047
-      Guarana_5: 23120735
+      Guarana_1: 1202509896
+      Guarana_2: -1651971024
+      Guarana_3: 1986293972
+      Guarana_4: 480014718
+      Guarana_5: -678470692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

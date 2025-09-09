@@ -18,19 +18,17 @@ public class InteriorMalocaScript : MonoBehaviour
         color = tilemap.color;
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         if (compositeCollider2D.IsTouching(playerBoxCollider2D))
         {
             tilemap.color = new Color(1f, 1f, 1f, 0.2f);
-            //light2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
+            light2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
         }
         else
         {
             tilemap.color = color;
-            //light2D.color = new Color(1f, 1f, 1f, 1f);
+            light2D.color = new Color(1f, 1f, 1f, 1f);
         }
         
     }

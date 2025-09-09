@@ -1,13 +1,7 @@
 fileFormatVersion: 2
 guid: 0140e2cecf8eb6340b6c6ec43adabc16
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7602599233166988465
-    second: Cumaru_0
-  - first:
-      213: -5486631117785610802
-    second: Cumaru_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,10 +110,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4bac6917442e7690800000000000000
-      internalID: -7602599233166988465
+      spriteID: 09a21224403d51b489d2f0cfa4039030
+      internalID: 730124902
       vertices: []
       indices: 
       edges: []
@@ -138,10 +132,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec5c8ca51129bd3b0800000000000000
-      internalID: -5486631117785610802
+      spriteID: 21e8e7a1d9ce3be469f831dfde2c4777
+      internalID: -1707462636
       vertices: []
       indices: 
       edges: []
@@ -162,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36761b7ed77b33f4398d0315b87c710d
-      internalID: 1439537830
+      spriteID: 4287765b6807f85488e4a4e95406e492
+      internalID: -1714870401
       vertices: []
       indices: 
       edges: []
@@ -184,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6816cecd56e94af4a88cb6ca00493732
-      internalID: 2003245793
+      spriteID: 8b42c6d98d4e01d48b53c36b6f86ade2
+      internalID: -1072220114
       vertices: []
       indices: 
       edges: []
@@ -206,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa7ee6b75a0ebcb41956e9998722f4f5
-      internalID: -1631140629
+      spriteID: 778ceca2b8c0f234bb776d58d01011f6
+      internalID: -601640462
       vertices: []
       indices: 
       edges: []
@@ -228,8 +222,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d20d5eb1f6ac8f40b6e9fa53ff7813e
-      internalID: 343879433
+      spriteID: 257b03058b68e044e87930f7de20a0ac
+      internalID: 1237415033
       vertices: []
       indices: 
       edges: []
@@ -250,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e2e121000b015d47bec9f67d379b5f2
-      internalID: -1939639984
+      spriteID: 3620282da217ca04fa99eb5deae49f57
+      internalID: 380836096
       vertices: []
       indices: 
       edges: []
@@ -272,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc0f2ed57ca91584ea3137f999e03b39
-      internalID: -1820900607
+      spriteID: 9ff5ee1a4d54b4d4182831fcb8369b43
+      internalID: -1022551161
       vertices: []
       indices: 
       edges: []
@@ -294,8 +288,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d64ab39b408aea4790a2ba59f02f3bf
-      internalID: -459508533
+      spriteID: 154f9e17a95927345b6cb82bb33b39ff
+      internalID: -2100690515
       vertices: []
       indices: 
       edges: []
@@ -316,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb17f057fa94c534f87a0da051033a71
-      internalID: 1544636038
+      spriteID: 9ca4ab9e29ea3724d95ae8c50fc9ed89
+      internalID: -920165794
       vertices: []
       indices: 
       edges: []
@@ -338,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3998bf62853be264db01dea4c2ba1570
-      internalID: 1894008170
+      spriteID: 3a265c5e9c556384e94e171bc662e830
+      internalID: 1352872036
       vertices: []
       indices: 
       edges: []
@@ -360,8 +354,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acba0b43f0869c84f84905527f62ba58
-      internalID: -1646834343
+      spriteID: 2266d38b5ce17804bb87f7eb67d764dd
+      internalID: -1487811874
       vertices: []
       indices: 
       edges: []
@@ -382,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76688e322e9f70a499476bf338f16d21
-      internalID: -1374208913
+      spriteID: e77634783b9267746b8f6ce0cb1929ba
+      internalID: 200597127
       vertices: []
       indices: 
       edges: []
@@ -404,8 +398,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1242d5e3ffe331468efe38cfa322a59
-      internalID: -600736869
+      spriteID: 5d8db9b42308e3743a83e230deea5fdc
+      internalID: 331163705
       vertices: []
       indices: 
       edges: []
@@ -426,8 +420,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c5bacd040bc7642895e86c6ab2a7d9
-      internalID: 1286722835
+      spriteID: 6f5bcc9ebfc5b774395e03ca771f6aaf
+      internalID: -637276195
       vertices: []
       indices: 
       edges: []
@@ -448,8 +442,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a762736a856df314ab148bc81f7c0022
-      internalID: 1131519241
+      spriteID: 7bb408d2c4e64c5459d34a572202b61b
+      internalID: -2045561004
       vertices: []
       indices: 
       edges: []
@@ -470,8 +464,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f441dcbf50b19404d8e6f5f7a62710ed
-      internalID: -2124505203
+      spriteID: f6466ee6f3c91c24aba29f83971c6c21
+      internalID: 1300915623
       vertices: []
       indices: 
       edges: []
@@ -492,8 +486,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27c1221f50d24d24aac02c0361ef55c1
-      internalID: -125145597
+      spriteID: 97d3adcd35cf8ae41b8ff6e65b1ca1e0
+      internalID: -939041866
       vertices: []
       indices: 
       edges: []
@@ -514,8 +508,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0956fe904b765a408caa3ff6499e597
-      internalID: -553620841
+      spriteID: 972ba305df3d68c4cad7532d7a3ad422
+      internalID: -1070447517
       vertices: []
       indices: 
       edges: []
@@ -536,8 +530,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f0340b68cf5cfd4e84fcfecd9e9e017
-      internalID: 1787509403
+      spriteID: 72bb558b2204fa1438ecf4843882752b
+      internalID: -890174899
       vertices: []
       indices: 
       edges: []
@@ -558,8 +552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b284ed07870f2a84e93972b4951afe1a
-      internalID: 553957032
+      spriteID: f8194d67479e38d4a92c4fa7aa325c11
+      internalID: -1698861513
       vertices: []
       indices: 
       edges: []
@@ -580,8 +574,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c35bb2d06881f7a4b8f99902a3f01953
-      internalID: 2082196559
+      spriteID: 47ffb9f375413fd4ebda91007639605e
+      internalID: -840541454
       vertices: []
       indices: 
       edges: []
@@ -602,8 +596,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a44d75ce8fb8794289d27aec53ce495
-      internalID: -530995305
+      spriteID: c4d84714e534ee646a8068ded7a3da93
+      internalID: 1362814321
       vertices: []
       indices: 
       edges: []
@@ -624,8 +618,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b81cfc82e5f8cf745887a9f09da65cd9
-      internalID: 611684449
+      spriteID: 37f994879407d1142a1f07a8f73f35cc
+      internalID: -208470357
       vertices: []
       indices: 
       edges: []
@@ -646,8 +640,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc5ee63388ac864abab6b41b0f17543
-      internalID: 1054316236
+      spriteID: 060995b387b9f434cbdb5027b0ab7558
+      internalID: -570345665
       vertices: []
       indices: 
       edges: []
@@ -668,8 +662,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e05da4164815349a9792b4ee8e446c
-      internalID: -1594849949
+      spriteID: e3080c1353dbd5842a71b82e849a878c
+      internalID: -943538663
       vertices: []
       indices: 
       edges: []
@@ -690,8 +684,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa6288d4cbe665d42b2b39de4867304d
-      internalID: 699364640
+      spriteID: c002543985adb6c4584ed04c891d6f2f
+      internalID: 779122597
       vertices: []
       indices: 
       edges: []
@@ -712,8 +706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c067a206553c294ea928f4a98e402b5
-      internalID: -469307005
+      spriteID: a2478d2bccb17b24b9d7f79b82bd0fa1
+      internalID: 1240360833
       vertices: []
       indices: 
       edges: []
@@ -734,8 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e1a176211fb05e48b6d8411a49ea23e
-      internalID: -1980665695
+      spriteID: f2318f7c120f0714fb01c8f2050de5a5
+      internalID: -259645455
       vertices: []
       indices: 
       edges: []
@@ -756,8 +750,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b886c9a0a96ef34bb9f5b07c34622e0
-      internalID: 1544256037
+      spriteID: 8cecbc2b9bb5b134ea686ca682d9c3c5
+      internalID: -1500109185
       vertices: []
       indices: 
       edges: []
@@ -778,8 +772,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a9e53577b8f2914b8c29d7fe4c7dff8
-      internalID: 471260242
+      spriteID: 554166674f1bb434ab7f10d4d65217c1
+      internalID: -917473550
       vertices: []
       indices: 
       edges: []
@@ -800,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099047da90cf01f448c5cc86086dfea8
-      internalID: -1530140531
+      spriteID: b2b83053df41a4549a3d0b79e0d1fc86
+      internalID: 985210665
       vertices: []
       indices: 
       edges: []
@@ -810,8 +804,8 @@ TextureImporter:
       name: Cumaru_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
+        x: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -822,8 +816,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64ddd6d4aecf9f445bc7050fb56fbd31
-      internalID: -616147978
+      spriteID: 672f049362826854089dbb5d468919cc
+      internalID: -1565137540
       vertices: []
       indices: 
       edges: []
@@ -832,7 +826,7 @@ TextureImporter:
       name: Cumaru_33
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 112
         width: 16
         height: 16
@@ -844,8 +838,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c89010297707f3f419a2f91332661385
-      internalID: -2078648763
+      spriteID: 3f42b602c0788de46a45d92d7f916862
+      internalID: -1611509870
       vertices: []
       indices: 
       edges: []
@@ -854,7 +848,7 @@ TextureImporter:
       name: Cumaru_34
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 112
         width: 16
         height: 16
@@ -866,8 +860,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd16190004318b4e935200b9086dd4f
-      internalID: 2112210008
+      spriteID: 4b32eb8bf956d884192a33e76bee96f4
+      internalID: 1212099104
       vertices: []
       indices: 
       edges: []
@@ -876,7 +870,7 @@ TextureImporter:
       name: Cumaru_35
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 112
         width: 16
         height: 16
@@ -888,8 +882,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ecfd4a05b7f404eaf6e6ab83d9b6b6
-      internalID: 357508433
+      spriteID: f58ac64e41bccf045bb2fc90ad39764e
+      internalID: 2087243020
       vertices: []
       indices: 
       edges: []
@@ -898,7 +892,7 @@ TextureImporter:
       name: Cumaru_36
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 112
         width: 16
         height: 16
@@ -910,8 +904,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd6e95dd9402fd043b8ae0826e6bbc6e
-      internalID: -271016511
+      spriteID: 14070c6b2766f8e4fa762dc9d416dfe2
+      internalID: -818322527
       vertices: []
       indices: 
       edges: []
@@ -920,7 +914,7 @@ TextureImporter:
       name: Cumaru_37
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 112
         width: 16
         height: 16
@@ -932,8 +926,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a63ffb4ec51566a4aaec08079f176099
-      internalID: 807126245
+      spriteID: 5b2f76b47699e4244933e1d396861159
+      internalID: 16596907
       vertices: []
       indices: 
       edges: []
@@ -942,7 +936,7 @@ TextureImporter:
       name: Cumaru_38
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 112
         width: 16
         height: 16
@@ -954,8 +948,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fd15c7e3941d314a85311fbf12b559f
-      internalID: 1652360796
+      spriteID: 9b9506e26915b844f89a7863eaf2df7d
+      internalID: -1995132842
       vertices: []
       indices: 
       edges: []
@@ -964,7 +958,7 @@ TextureImporter:
       name: Cumaru_39
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 112
         width: 16
         height: 16
@@ -976,8 +970,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21937df273e0f104a9055716099b844e
-      internalID: -1729504297
+      spriteID: f778c46f40865fe4582aee42f26b4b30
+      internalID: -152776167
       vertices: []
       indices: 
       edges: []
@@ -986,7 +980,7 @@ TextureImporter:
       name: Cumaru_40
       rect:
         serializedVersion: 2
-        x: 128
+        x: 112
         y: 112
         width: 16
         height: 16
@@ -998,8 +992,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33de05093d2e2d842ad290ed2941b50e
-      internalID: -486066740
+      spriteID: 020acb84944f5a94ca6534b76e52ea35
+      internalID: 211536835
       vertices: []
       indices: 
       edges: []
@@ -1008,7 +1002,7 @@ TextureImporter:
       name: Cumaru_41
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 112
         width: 16
         height: 16
@@ -1020,8 +1014,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c46a8f0eb0ef504aa06e02ed10822fb
-      internalID: 430222078
+      spriteID: 967370693c348694aacda75c55260b53
+      internalID: -233076367
       vertices: []
       indices: 
       edges: []
@@ -1030,7 +1024,7 @@ TextureImporter:
       name: Cumaru_42
       rect:
         serializedVersion: 2
-        x: 160
+        x: 144
         y: 112
         width: 16
         height: 16
@@ -1042,8 +1036,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a321bbabda195994ebfcdd33680dd677
-      internalID: -1421317873
+      spriteID: d7fe1821b4cded44cbc280722f1851a5
+      internalID: -1173690324
       vertices: []
       indices: 
       edges: []
@@ -1052,7 +1046,7 @@ TextureImporter:
       name: Cumaru_43
       rect:
         serializedVersion: 2
-        x: 176
+        x: 160
         y: 112
         width: 16
         height: 16
@@ -1064,8 +1058,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e7002506ad81a4fb7933c38e0323f9
-      internalID: 460466519
+      spriteID: 09c8c0624c06a3b44a30ec18b639302e
+      internalID: 1323556811
       vertices: []
       indices: 
       edges: []
@@ -1074,6 +1068,28 @@ TextureImporter:
       name: Cumaru_44
       rect:
         serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5575051b4077c47b12d5ff6524634e
+      internalID: -2046572827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cumaru_45
+      rect:
+        serializedVersion: 2
         x: 192
         y: 112
         width: 16
@@ -1086,30 +1102,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46147ea7efdbca243a88ac94e900728d
-      internalID: 440367955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cumaru_45
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eb0a60714c7a244a998fce0ae8e227d
-      internalID: -1952666108
+      spriteID: 9baa8c88e80756d4492a3bf7c26bd902
+      internalID: -1167147117
       vertices: []
       indices: 
       edges: []
@@ -1118,7 +1112,7 @@ TextureImporter:
       name: Cumaru_46
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 96
         width: 16
         height: 16
@@ -1130,8 +1124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa1cfd4408d3db44aaed2f0350912bfd
-      internalID: -1552442804
+      spriteID: 70c8fe13ddf6b9a48935d03363cef667
+      internalID: -1623672600
       vertices: []
       indices: 
       edges: []
@@ -1140,7 +1134,7 @@ TextureImporter:
       name: Cumaru_47
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 96
         width: 16
         height: 16
@@ -1152,8 +1146,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28fbf68c8313f764c8f5c48d210107c2
-      internalID: 1921583404
+      spriteID: 3ba2e6e678e073c458ffa433bbb1683a
+      internalID: 264308330
       vertices: []
       indices: 
       edges: []
@@ -1162,7 +1156,7 @@ TextureImporter:
       name: Cumaru_48
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 96
         width: 16
         height: 16
@@ -1174,8 +1168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae385a3814a4dee4ea5dcc44cb4ab31b
-      internalID: -792052631
+      spriteID: f472f88a322904b458be91a704409348
+      internalID: -369986655
       vertices: []
       indices: 
       edges: []
@@ -1184,7 +1178,7 @@ TextureImporter:
       name: Cumaru_49
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 96
         width: 16
         height: 16
@@ -1196,8 +1190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b58d79f518cb547ba277a3244cf43b
-      internalID: -1843301100
+      spriteID: 7fe8a3b615fa1704189056f23d00df9e
+      internalID: 1200284068
       vertices: []
       indices: 
       edges: []
@@ -1206,7 +1200,7 @@ TextureImporter:
       name: Cumaru_50
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 96
         width: 16
         height: 16
@@ -1218,8 +1212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d267ded4a0c84e438801d501d2bc2f1
-      internalID: 1573524487
+      spriteID: 2064c5bfcb08c824e8f3e00e67cdaa93
+      internalID: -136440810
       vertices: []
       indices: 
       edges: []
@@ -1228,7 +1222,7 @@ TextureImporter:
       name: Cumaru_51
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 96
         width: 16
         height: 16
@@ -1240,8 +1234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c781d352044e35429d0a87cab1e74f0
-      internalID: -1547222454
+      spriteID: 56ed0f4f338dbf84b803ec86a9070a57
+      internalID: 1962246263
       vertices: []
       indices: 
       edges: []
@@ -1250,7 +1244,7 @@ TextureImporter:
       name: Cumaru_52
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 96
         width: 16
         height: 16
@@ -1262,8 +1256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3deb6fdb0359077448dca7beeb03dfbf
-      internalID: -615708947
+      spriteID: 03fede7369314c04eb894e8867ba1ca8
+      internalID: -6919770
       vertices: []
       indices: 
       edges: []
@@ -1272,7 +1266,7 @@ TextureImporter:
       name: Cumaru_53
       rect:
         serializedVersion: 2
-        x: 128
+        x: 112
         y: 96
         width: 16
         height: 16
@@ -1284,8 +1278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28c42880577034640a3886fb36e736ef
-      internalID: -1685808700
+      spriteID: f5934f6519d3d5e419b8d11516ac12bf
+      internalID: -1217091538
       vertices: []
       indices: 
       edges: []
@@ -1294,7 +1288,7 @@ TextureImporter:
       name: Cumaru_54
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 96
         width: 16
         height: 16
@@ -1306,8 +1300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4ff54116148484a8c0ed37e0ecdb99
-      internalID: 1501000644
+      spriteID: 102b090253bb7984cb4ea01f54025148
+      internalID: -177957167
       vertices: []
       indices: 
       edges: []
@@ -1316,7 +1310,7 @@ TextureImporter:
       name: Cumaru_55
       rect:
         serializedVersion: 2
-        x: 160
+        x: 144
         y: 96
         width: 16
         height: 16
@@ -1328,8 +1322,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5911d4a9eee07249a8a95ec34ab2882
-      internalID: 1571531
+      spriteID: 06b28a90a9a93144cae01480198fd8db
+      internalID: -1001182825
       vertices: []
       indices: 
       edges: []
@@ -1338,7 +1332,7 @@ TextureImporter:
       name: Cumaru_56
       rect:
         serializedVersion: 2
-        x: 176
+        x: 160
         y: 96
         width: 16
         height: 16
@@ -1350,8 +1344,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26fe947d161619a419bf90fede42902e
-      internalID: -484145253
+      spriteID: 6f9a18f00e345fa4c978b4d88589b737
+      internalID: 1526163338
       vertices: []
       indices: 
       edges: []
@@ -1360,6 +1354,28 @@ TextureImporter:
       name: Cumaru_57
       rect:
         serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eebb7f1741af9546a46586bcb99ab5a
+      internalID: -1385108898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cumaru_58
+      rect:
+        serializedVersion: 2
         x: 192
         y: 96
         width: 16
@@ -1372,14 +1388,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98c02dc7791d3a4ba1f965c14bb7a08
-      internalID: 825605157
+      spriteID: 650143d25a215aa4fb9481e1908b847a
+      internalID: -1529502839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_58
+      name: Cumaru_59
       rect:
         serializedVersion: 2
         x: 0
@@ -1394,14 +1410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c1becfc8e49c1e4f8b48a466328c97e
-      internalID: -546334998
+      spriteID: 5e1559dd33a64534295299a8bad511f6
+      internalID: 1946644403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_59
+      name: Cumaru_60
       rect:
         serializedVersion: 2
         x: 16
@@ -1416,14 +1432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e6094e5c3ac90469bf1a99488e329c
-      internalID: 1326616254
+      spriteID: 8b9227ee153b10b459f69c3e58924ad0
+      internalID: -978998171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_60
+      name: Cumaru_61
       rect:
         serializedVersion: 2
         x: 32
@@ -1438,14 +1454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a4e406d9ff569341abb55f8fa74a6ea
-      internalID: 743224225
+      spriteID: e73b45e391fb9904fa7973838e88345a
+      internalID: -1337339836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_61
+      name: Cumaru_62
       rect:
         serializedVersion: 2
         x: 48
@@ -1460,14 +1476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7661a3fde69e569498f924538740e734
-      internalID: 80457600
+      spriteID: 7e6efd8b3e76ddd4c9d9492f23f4ab55
+      internalID: -332121050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_62
+      name: Cumaru_63
       rect:
         serializedVersion: 2
         x: 64
@@ -1482,14 +1498,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6e1426513cfd844a8d6d701a5bfacd0
-      internalID: -1157067069
+      spriteID: d1f9e4e0ed89c574d8b1ec1bb21c4c2e
+      internalID: -985466795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_63
+      name: Cumaru_64
       rect:
         serializedVersion: 2
         x: 80
@@ -1504,14 +1520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 426ba518fec278a4a88af739b3b1313c
-      internalID: 30849226
+      spriteID: 332b50f24ef0bd84c98ba913d8cfa65d
+      internalID: 729020098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_64
+      name: Cumaru_65
       rect:
         serializedVersion: 2
         x: 96
@@ -1526,14 +1542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea8c0f98680acc4abb30a4ae61f128b
-      internalID: -1546272431
+      spriteID: 6f5947b65c5a1bb40b2768453726276e
+      internalID: -742402320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_65
+      name: Cumaru_66
       rect:
         serializedVersion: 2
         x: 112
@@ -1548,14 +1564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25cb08c6b5cc16a4f87ac23eab87d25a
-      internalID: 1097852336
+      spriteID: 2af011646606cb1478ce4b3b0f46b750
+      internalID: -1701839265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_66
+      name: Cumaru_67
       rect:
         serializedVersion: 2
         x: 128
@@ -1570,14 +1586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e23681b4c471de4593f8f4d5a591a95
-      internalID: 560026891
+      spriteID: a6f959e7448d9d746a4109c966509d37
+      internalID: -325967410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_67
+      name: Cumaru_68
       rect:
         serializedVersion: 2
         x: 144
@@ -1592,14 +1608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 762f0bc33e3d9694d8220355c0d665ee
-      internalID: -1736466691
+      spriteID: 0ef0864991652334ab2050acf58986f7
+      internalID: -828996276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_68
+      name: Cumaru_69
       rect:
         serializedVersion: 2
         x: 160
@@ -1614,14 +1630,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da46801fe7d81e243ac736f7235ae2a4
-      internalID: -612678406
+      spriteID: bd31d8c250b63194786931082e0dc3df
+      internalID: -2057208781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_69
+      name: Cumaru_70
       rect:
         serializedVersion: 2
         x: 176
@@ -1636,14 +1652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30cf107cfafc2314295020edbd96df54
-      internalID: -830358423
+      spriteID: 006ffa0fe2f11c640a84b30b9e1f75f7
+      internalID: 7846039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_70
+      name: Cumaru_71
       rect:
         serializedVersion: 2
         x: 192
@@ -1658,14 +1674,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8b65ef309925a447819c43506b5874f
-      internalID: -1629495024
+      spriteID: f223cad459d533f498e194dedb43b9f7
+      internalID: -293714122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_71
+      name: Cumaru_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1680,30 +1696,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c562441e2862b4b8fe2ef3a2d693be
-      internalID: 1537570274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cumaru_72
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e18c8199ef7efc04f8410269aba9c5d1
-      internalID: 332114833
+      spriteID: 8114183fb06691b45b5d923d9ea70dfb
+      internalID: 149828563
       vertices: []
       indices: 
       edges: []
@@ -1712,6 +1706,28 @@ TextureImporter:
       name: Cumaru_73
       rect:
         serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b2ebebed587a14ca6188c4b929eb0c
+      internalID: -1095652020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cumaru_74
+      rect:
+        serializedVersion: 2
         x: 32
         y: 64
         width: 16
@@ -1724,14 +1740,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a262033888688f44ac116705d5bba14
-      internalID: 445394690
+      spriteID: 90c90768c0806ff418ab816c30a250b1
+      internalID: -670821033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_74
+      name: Cumaru_75
       rect:
         serializedVersion: 2
         x: 48
@@ -1746,14 +1762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4535b1bc8e786d8409719f92d6a5326e
-      internalID: -1983093423
+      spriteID: f151fb0767fd7a149bdb2808aa174793
+      internalID: -148387438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_75
+      name: Cumaru_76
       rect:
         serializedVersion: 2
         x: 64
@@ -1768,14 +1784,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9afa5323ac4f034e934e097eccfc4ea
-      internalID: -827320616
+      spriteID: 01a51276816833a4f922eaf4dbe2af4c
+      internalID: 357893494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_76
+      name: Cumaru_77
       rect:
         serializedVersion: 2
         x: 80
@@ -1790,14 +1806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34b7746aae08a0e4eb523523964fc359
-      internalID: 1440813378
+      spriteID: fa23de01c1f27704fa06da806cb2a956
+      internalID: 413967210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_77
+      name: Cumaru_78
       rect:
         serializedVersion: 2
         x: 96
@@ -1812,14 +1828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2de44d01252aa754e9b7dad4f9c17a7f
-      internalID: -1769032751
+      spriteID: afe4613d14c71bc40a525089bb3693db
+      internalID: 632440624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_78
+      name: Cumaru_79
       rect:
         serializedVersion: 2
         x: 112
@@ -1834,14 +1850,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d2a1d87b0b92e49ba54f05ded4419b
-      internalID: -290476949
+      spriteID: 8392008ffac39e3418b5ea8e37ddf7e1
+      internalID: -533988623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_79
+      name: Cumaru_80
       rect:
         serializedVersion: 2
         x: 128
@@ -1856,14 +1872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29782fa19e7b6ad47bdf33550a0d3a4f
-      internalID: -1599496208
+      spriteID: 48da589703b2bc24092a0a49c1204a30
+      internalID: 967656904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_80
+      name: Cumaru_81
       rect:
         serializedVersion: 2
         x: 144
@@ -1878,14 +1894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b80ebc24205e9489492883943c7aeb
-      internalID: -1231666713
+      spriteID: 8cf3c660ce5f71f46b5f46c052541a6d
+      internalID: 2034940287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_81
+      name: Cumaru_82
       rect:
         serializedVersion: 2
         x: 160
@@ -1900,14 +1916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d35a9f70434255945a9e762cfba07860
-      internalID: -241529533
+      spriteID: 02ca280ef3b62884fba0f40ce2f7fb3b
+      internalID: -733756142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_82
+      name: Cumaru_83
       rect:
         serializedVersion: 2
         x: 176
@@ -1922,14 +1938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb343091a4117ff4d898c93f259fccf1
-      internalID: -579297446
+      spriteID: a97f10bd417476e4f84719af04ec6cf5
+      internalID: -2001805491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_83
+      name: Cumaru_84
       rect:
         serializedVersion: 2
         x: 16
@@ -1944,14 +1960,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c07db41ede9fe546be9496cec08a89e
-      internalID: 1534203395
+      spriteID: 6264760718431cb44b34aaab3bbe76ed
+      internalID: -1215790440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_84
+      name: Cumaru_85
       rect:
         serializedVersion: 2
         x: 32
@@ -1966,14 +1982,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cedc86177acee4b4caa9c41f4d85fee7
-      internalID: 672001603
+      spriteID: 717edaf88dc314843bf80307cddd68cb
+      internalID: 1186690376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_85
+      name: Cumaru_86
       rect:
         serializedVersion: 2
         x: 48
@@ -1988,14 +2004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c8934f784b0f1e4b8206c4f1b209444
-      internalID: -1095345805
+      spriteID: ff18a50b9e9e13b46901b60529729e02
+      internalID: -51785754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_86
+      name: Cumaru_87
       rect:
         serializedVersion: 2
         x: 64
@@ -2010,14 +2026,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d36a8884d0d777f45b0a1548fd682522
-      internalID: -729308382
+      spriteID: 2d77e8e9b54eb004db25a9f69cc16db7
+      internalID: 1595298761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_87
+      name: Cumaru_88
       rect:
         serializedVersion: 2
         x: 80
@@ -2032,14 +2048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25704f841e1def447a4fd68026ea36a6
-      internalID: 1077187626
+      spriteID: dd0debe86d36e9e4ba64fab5c4be7011
+      internalID: 2089806500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_88
+      name: Cumaru_89
       rect:
         serializedVersion: 2
         x: 96
@@ -2054,14 +2070,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d01d7a6c22da84ab6c3687e73e88d6
-      internalID: 1171138650
+      spriteID: a87efbe3b39717e42a8cf412341cdb02
+      internalID: 306757080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_89
+      name: Cumaru_90
       rect:
         serializedVersion: 2
         x: 112
@@ -2076,14 +2092,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d01c399d554a42458e42bfc618800fc
-      internalID: 257646035
+      spriteID: 16eb0300559e92a4f80223f27f2108b9
+      internalID: 388756252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_90
+      name: Cumaru_91
       rect:
         serializedVersion: 2
         x: 128
@@ -2098,14 +2114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0b5c7af4ed49f4fae4cc05498a3905
-      internalID: -2023249015
+      spriteID: 640b11ed4baa70b4390dad9cfd1ba69e
+      internalID: -57032526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_91
+      name: Cumaru_92
       rect:
         serializedVersion: 2
         x: 144
@@ -2120,14 +2136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e2eb9d02593a954d9d8277ca0c04ba3
-      internalID: -134781559
+      spriteID: ab7d680c87ae477469cbe938d75dad45
+      internalID: 1689455225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_92
+      name: Cumaru_93
       rect:
         serializedVersion: 2
         x: 160
@@ -2142,14 +2158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb08d4bf854d75e43b91ecbe882c34dc
-      internalID: -1636202663
+      spriteID: 47135a99bff99dc4b8a3d1e5b52bc8c7
+      internalID: 1924936419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_93
+      name: Cumaru_94
       rect:
         serializedVersion: 2
         x: 176
@@ -2164,14 +2180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e226804e2346c874cbb765f27512a3ee
-      internalID: 1665367775
+      spriteID: 20b5b3f44be7c0b44a431957e7a0dc4b
+      internalID: 1487688628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_94
+      name: Cumaru_95
       rect:
         serializedVersion: 2
         x: 48
@@ -2186,14 +2202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc5047d75de6d541a92afe76711792a
-      internalID: 272631226
+      spriteID: e0150d04114174a40931489c69dc3a84
+      internalID: 410640761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_95
+      name: Cumaru_96
       rect:
         serializedVersion: 2
         x: 64
@@ -2208,14 +2224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d125d113d562c0e4e8c91ef34c8df347
-      internalID: -912653098
+      spriteID: 548edc886c5131c469686c8be9eb427c
+      internalID: -1054157129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_96
+      name: Cumaru_97
       rect:
         serializedVersion: 2
         x: 80
@@ -2230,14 +2246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b23e615cd7bce13439a6aa6e961b52a4
-      internalID: -180570100
+      spriteID: 69f4043d7f0bcf14ca3c711a363c7cb6
+      internalID: 1982174918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_97
+      name: Cumaru_98
       rect:
         serializedVersion: 2
         x: 96
@@ -2252,14 +2268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d3e8c330b1d9f4290977655c3a67b9
-      internalID: -395772962
+      spriteID: 8d97e951931584547ba548457653d962
+      internalID: -1274543147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_98
+      name: Cumaru_99
       rect:
         serializedVersion: 2
         x: 112
@@ -2274,14 +2290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff049ff2b60248b41afdd7fcb134f22c
-      internalID: 2115141470
+      spriteID: 4716b28c23f871e428bd5e83da5356a8
+      internalID: 557369857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_99
+      name: Cumaru_100
       rect:
         serializedVersion: 2
         x: 128
@@ -2296,14 +2312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4c2260e8ce00aa4f922ed914fc88876
-      internalID: 692311140
+      spriteID: a244b37b6f051b6499dcd957d75d121e
+      internalID: -532467388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_100
+      name: Cumaru_101
       rect:
         serializedVersion: 2
         x: 144
@@ -2318,14 +2334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85d2de9014ad6854680ed765066563b3
-      internalID: 1602186599
+      spriteID: 84a727d4cd5da6741a5142b8d3365917
+      internalID: -1877318084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_101
+      name: Cumaru_102
       rect:
         serializedVersion: 2
         x: 64
@@ -2340,30 +2356,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b615b221b61b264db8423f855e6de58
-      internalID: -2069757979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cumaru_102
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1e0d3c3ecf1e204b8a662396113811b
-      internalID: 1868798876
+      spriteID: 3d0fefe93199ae84c98a236fd6526e52
+      internalID: -915819067
       vertices: []
       indices: 
       edges: []
@@ -2372,6 +2366,28 @@ TextureImporter:
       name: Cumaru_103
       rect:
         serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1055a13336914b4b98a6e06ea714aaa
+      internalID: -585167482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cumaru_104
+      rect:
+        serializedVersion: 2
         x: 96
         y: 16
         width: 16
@@ -2384,14 +2400,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd7d6399fb195ae47948975eb46d626b
-      internalID: -40230962
+      spriteID: 0d0eddba67a978a4b970438df04d339d
+      internalID: 770311486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_104
+      name: Cumaru_105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d705e6554da1a4ab315e81ff8b6625
+      internalID: 930134110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cumaru_106
       rect:
         serializedVersion: 2
         x: 80
@@ -2406,14 +2444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617fe0afdc1da0c4e9335389ce1dd18c
-      internalID: -369788935
+      spriteID: cc901a3a1080ce44295a12ca1cd3c886
+      internalID: 893265134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cumaru_105
+      name: Cumaru_107
       rect:
         serializedVersion: 2
         x: 96
@@ -2428,8 +2466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeb9d1aec271ccb43943d26eceafaa5c
-      internalID: -1278759807
+      spriteID: 6d644d50f0066bd4c970b5e8bd5d55b1
+      internalID: -1547842602
       vertices: []
       indices: 
       edges: []
@@ -2438,7 +2476,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ce7bbd0a5c9ddde46b210482d1eb1b68
+    spriteID: 30df8483bd58d1845a89214c5efc67dc
     internalID: 0
     vertices: []
     indices: 
@@ -2450,112 +2488,114 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Cumaru_0: -7602599233166988465
-      Cumaru_1: -5486631117785610802
-      Cumaru_10: 1894008170
-      Cumaru_100: 1602186599
-      Cumaru_101: -2069757979
-      Cumaru_102: 1868798876
-      Cumaru_103: -40230962
-      Cumaru_104: -369788935
-      Cumaru_105: -1278759807
-      Cumaru_11: -1646834343
-      Cumaru_12: -1374208913
-      Cumaru_13: -600736869
-      Cumaru_14: 1286722835
-      Cumaru_15: 1131519241
-      Cumaru_16: -2124505203
-      Cumaru_17: -125145597
-      Cumaru_18: -553620841
-      Cumaru_19: 1787509403
-      Cumaru_2: 1439537830
-      Cumaru_20: 553957032
-      Cumaru_21: 2082196559
-      Cumaru_22: -530995305
-      Cumaru_23: 611684449
-      Cumaru_24: 1054316236
-      Cumaru_25: -1594849949
-      Cumaru_26: 699364640
-      Cumaru_27: -469307005
-      Cumaru_28: -1980665695
-      Cumaru_29: 1544256037
-      Cumaru_3: 2003245793
-      Cumaru_30: 471260242
-      Cumaru_31: -1530140531
-      Cumaru_32: -616147978
-      Cumaru_33: -2078648763
-      Cumaru_34: 2112210008
-      Cumaru_35: 357508433
-      Cumaru_36: -271016511
-      Cumaru_37: 807126245
-      Cumaru_38: 1652360796
-      Cumaru_39: -1729504297
-      Cumaru_4: -1631140629
-      Cumaru_40: -486066740
-      Cumaru_41: 430222078
-      Cumaru_42: -1421317873
-      Cumaru_43: 460466519
-      Cumaru_44: 440367955
-      Cumaru_45: -1952666108
-      Cumaru_46: -1552442804
-      Cumaru_47: 1921583404
-      Cumaru_48: -792052631
-      Cumaru_49: -1843301100
-      Cumaru_5: 343879433
-      Cumaru_50: 1573524487
-      Cumaru_51: -1547222454
-      Cumaru_52: -615708947
-      Cumaru_53: -1685808700
-      Cumaru_54: 1501000644
-      Cumaru_55: 1571531
-      Cumaru_56: -484145253
-      Cumaru_57: 825605157
-      Cumaru_58: -546334998
-      Cumaru_59: 1326616254
-      Cumaru_6: -1939639984
-      Cumaru_60: 743224225
-      Cumaru_61: 80457600
-      Cumaru_62: -1157067069
-      Cumaru_63: 30849226
-      Cumaru_64: -1546272431
-      Cumaru_65: 1097852336
-      Cumaru_66: 560026891
-      Cumaru_67: -1736466691
-      Cumaru_68: -612678406
-      Cumaru_69: -830358423
-      Cumaru_7: -1820900607
-      Cumaru_70: -1629495024
-      Cumaru_71: 1537570274
-      Cumaru_72: 332114833
-      Cumaru_73: 445394690
-      Cumaru_74: -1983093423
-      Cumaru_75: -827320616
-      Cumaru_76: 1440813378
-      Cumaru_77: -1769032751
-      Cumaru_78: -290476949
-      Cumaru_79: -1599496208
-      Cumaru_8: -459508533
-      Cumaru_80: -1231666713
-      Cumaru_81: -241529533
-      Cumaru_82: -579297446
-      Cumaru_83: 1534203395
-      Cumaru_84: 672001603
-      Cumaru_85: -1095345805
-      Cumaru_86: -729308382
-      Cumaru_87: 1077187626
-      Cumaru_88: 1171138650
-      Cumaru_89: 257646035
-      Cumaru_9: 1544636038
-      Cumaru_90: -2023249015
-      Cumaru_91: -134781559
-      Cumaru_92: -1636202663
-      Cumaru_93: 1665367775
-      Cumaru_94: 272631226
-      Cumaru_95: -912653098
-      Cumaru_96: -180570100
-      Cumaru_97: -395772962
-      Cumaru_98: 2115141470
-      Cumaru_99: 692311140
+      Cumaru_0: 730124902
+      Cumaru_1: -1707462636
+      Cumaru_10: 1352872036
+      Cumaru_100: -532467388
+      Cumaru_101: -1877318084
+      Cumaru_102: -915819067
+      Cumaru_103: -585167482
+      Cumaru_104: 770311486
+      Cumaru_105: 930134110
+      Cumaru_106: 893265134
+      Cumaru_107: -1547842602
+      Cumaru_11: -1487811874
+      Cumaru_12: 200597127
+      Cumaru_13: 331163705
+      Cumaru_14: -637276195
+      Cumaru_15: -2045561004
+      Cumaru_16: 1300915623
+      Cumaru_17: -939041866
+      Cumaru_18: -1070447517
+      Cumaru_19: -890174899
+      Cumaru_2: -1714870401
+      Cumaru_20: -1698861513
+      Cumaru_21: -840541454
+      Cumaru_22: 1362814321
+      Cumaru_23: -208470357
+      Cumaru_24: -570345665
+      Cumaru_25: -943538663
+      Cumaru_26: 779122597
+      Cumaru_27: 1240360833
+      Cumaru_28: -259645455
+      Cumaru_29: -1500109185
+      Cumaru_3: -1072220114
+      Cumaru_30: -917473550
+      Cumaru_31: 985210665
+      Cumaru_32: -1565137540
+      Cumaru_33: -1611509870
+      Cumaru_34: 1212099104
+      Cumaru_35: 2087243020
+      Cumaru_36: -818322527
+      Cumaru_37: 16596907
+      Cumaru_38: -1995132842
+      Cumaru_39: -152776167
+      Cumaru_4: -601640462
+      Cumaru_40: 211536835
+      Cumaru_41: -233076367
+      Cumaru_42: -1173690324
+      Cumaru_43: 1323556811
+      Cumaru_44: -2046572827
+      Cumaru_45: -1167147117
+      Cumaru_46: -1623672600
+      Cumaru_47: 264308330
+      Cumaru_48: -369986655
+      Cumaru_49: 1200284068
+      Cumaru_5: 1237415033
+      Cumaru_50: -136440810
+      Cumaru_51: 1962246263
+      Cumaru_52: -6919770
+      Cumaru_53: -1217091538
+      Cumaru_54: -177957167
+      Cumaru_55: -1001182825
+      Cumaru_56: 1526163338
+      Cumaru_57: -1385108898
+      Cumaru_58: -1529502839
+      Cumaru_59: 1946644403
+      Cumaru_6: 380836096
+      Cumaru_60: -978998171
+      Cumaru_61: -1337339836
+      Cumaru_62: -332121050
+      Cumaru_63: -985466795
+      Cumaru_64: 729020098
+      Cumaru_65: -742402320
+      Cumaru_66: -1701839265
+      Cumaru_67: -325967410
+      Cumaru_68: -828996276
+      Cumaru_69: -2057208781
+      Cumaru_7: -1022551161
+      Cumaru_70: 7846039
+      Cumaru_71: -293714122
+      Cumaru_72: 149828563
+      Cumaru_73: -1095652020
+      Cumaru_74: -670821033
+      Cumaru_75: -148387438
+      Cumaru_76: 357893494
+      Cumaru_77: 413967210
+      Cumaru_78: 632440624
+      Cumaru_79: -533988623
+      Cumaru_8: -2100690515
+      Cumaru_80: 967656904
+      Cumaru_81: 2034940287
+      Cumaru_82: -733756142
+      Cumaru_83: -2001805491
+      Cumaru_84: -1215790440
+      Cumaru_85: 1186690376
+      Cumaru_86: -51785754
+      Cumaru_87: 1595298761
+      Cumaru_88: 2089806500
+      Cumaru_89: 306757080
+      Cumaru_9: -920165794
+      Cumaru_90: 388756252
+      Cumaru_91: -57032526
+      Cumaru_92: 1689455225
+      Cumaru_93: 1924936419
+      Cumaru_94: 1487688628
+      Cumaru_95: 410640761
+      Cumaru_96: -1054157129
+      Cumaru_97: 1982174918
+      Cumaru_98: -1274543147
+      Cumaru_99: 557369857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
