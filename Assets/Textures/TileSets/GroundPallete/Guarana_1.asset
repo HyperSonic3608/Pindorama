@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Guarana_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1351218531, guid: a097b6e33e8c9be4493f776c948ef065, type: 3}
+  m_Sprite: {fileID: 1202509896, guid: a097b6e33e8c9be4493f776c948ef065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
