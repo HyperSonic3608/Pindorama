@@ -5,7 +5,8 @@ public class exitLightiningScript : MonoBehaviour
 {
     private BoxCollider2D playerBoxCollider2D;
     private BoxCollider2D boxCollider2D;
-    [SerializeField] Light2D light2D;
+    [SerializeField] Light2D GlobalLight2D;
+    [SerializeField] Light2D playerLight2D;
 
     void Start()
     {
@@ -16,17 +17,8 @@ public class exitLightiningScript : MonoBehaviour
     {
         if (boxCollider2D.IsTouching(playerBoxCollider2D))
         {
-            do
-            {
-                light2D.intensity -= 0.1f;
-            } while (light2D.intensity >= 0.2f);
-        }
-        else
-        {
-            do
-            {
-                light2D.intensity += 0.1f;
-            } while (light2D.intensity <= 1);
+            GlobalLight2D.enabled = false;
+            playerLight2D.enabled = false;
         }
     }
 }
