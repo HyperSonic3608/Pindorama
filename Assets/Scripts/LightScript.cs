@@ -20,7 +20,7 @@ public class Light : MonoBehaviour
         }
         else
         {
-            light2D.intensity = 1;
+            //light2D.intensity = 1;
         }
     }
 }
