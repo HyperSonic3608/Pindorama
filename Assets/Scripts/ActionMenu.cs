@@ -9,10 +9,13 @@ public class ActionMenu : MonoBehaviour
     [SerializeField] private Image characterImage;
     [SerializeField] private CombatLogic combatLogic;
     public GameObject lastButtonPressed;
+    private Animator animator;
 
     public void UpdateImage()
     {
         characterImage.sprite = character.GetComponent<Image>().sprite;
+        animator = GetComponent<Animator>();
+        animator.SetFloat("CardRarity", character.GetComponent<Character>().CardRarity);
     }
     public void Close()
     {
