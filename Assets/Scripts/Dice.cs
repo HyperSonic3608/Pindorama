@@ -20,7 +20,7 @@ public class Dado : MonoBehaviour
 
     public void RollDice()
     {
-        int randomValue = Random.Range(1, 6);
+        int randomValue = Random.Range(1, 7);
         animator.SetFloat("DiceValue", randomValue);
         animator.SetBool("Roll", true);
     }

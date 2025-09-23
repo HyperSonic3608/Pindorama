@@ -1,6 +1,4 @@
-using System;
-using Unity.VisualScripting;
-using UnityEditor;
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -9,10 +7,13 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     Transform originalParent;
     CanvasGroup canvasGroup;
     public GameObject characterPrefab;
+    private Animator animator;
 
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        animator = GetComponent<Animator>();
+        animator.SetFloat("CardRarity", Random.Range(0,3));
     }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
@@ -40,7 +41,7 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             {
                 dropSlot.currentCharacter = Instantiate(characterPrefab, dropSlot.transform);
                 dropSlot.currentCharacter.name = "Character " + dropSlot.transform.childCount;
-                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 46);
+                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 40);
                 gameObject.SetActive(false);
             }
         }

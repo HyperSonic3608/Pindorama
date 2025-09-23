@@ -6,12 +6,16 @@ public class Character : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     private CanvasGroup canvasGroup;
     private CombatLogic combatLogic;
     private GameObject actionMenu;
+    private int cardRarity;
+
+    public int CardRarity { get => cardRarity;}
 
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         actionMenu = GameObject.FindGameObjectWithTag("ActionMenu");
+        cardRarity = Random.Range(0,3);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

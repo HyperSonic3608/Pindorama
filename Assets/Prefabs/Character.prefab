@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 78, y: 156}
+  m_SizeDelta: {x: 78, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3185130958079958016
 CanvasRenderer:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5861643231218709656, guid: fe290e8f24b97e14da2c1baaf21b583b, type: 3}
+  m_Sprite: {fileID: 5861643231218709656, guid: 991579ac4ca4dd4429f33d2fc1bfd770, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -101,5 +101,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c56188df8168c4d4ebe13e1f6f7b1b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cartaController: {fileID: 0}
-  actionMenu: {fileID: 1441330705920964243}
