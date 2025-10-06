@@ -1,4 +1,6 @@
 
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -7,13 +9,12 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     Transform originalParent;
     CanvasGroup canvasGroup;
     public GameObject characterPrefab;
-    private Animator animator;
+    private GameObject character;
 
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        animator = GetComponent<Animator>();
-        animator.SetFloat("CardRarity", Random.Range(0,3));
+        setCharacter();
     }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
@@ -39,14 +40,26 @@ public class Carta : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         {
             if (dropSlot.currentCharacter == null)
             {
-                dropSlot.currentCharacter = Instantiate(characterPrefab, dropSlot.transform);
-                dropSlot.currentCharacter.name = "Character " + dropSlot.transform.childCount;
-                dropSlot.currentCharacter.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 40);
+                character.transform.SetParent(dropSlot.transform);
+                character.name = "Character " + dropSlot.transform.childCount;
+                character.transform.localScale = Vector3.one;
+                character.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 78f);
+                character.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 140f);
+                character.GetComponent<RectTransform>().anchoredPosition = new Vector2(18.5f, 150);
+                dropSlot.currentCharacter = character;
                 gameObject.SetActive(false);
             }
         }
 
         transform.SetParent(originalParent);
         GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+    }
+
+    void setCharacter()
+    {
+        character = Instantiate(characterPrefab, transform);
+        character.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 90f);
+        character.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 162f);
+        character.GetComponent<RectTransform>().anchoredPosition = new Vector2(140, 255);
     }
 }

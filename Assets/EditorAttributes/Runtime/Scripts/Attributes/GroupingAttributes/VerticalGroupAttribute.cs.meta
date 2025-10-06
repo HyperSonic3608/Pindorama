@@ -13,6 +13,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 269285
   packageName: EditorAttributes
-  packageVersion: 2.9.0
+  packageVersion: 2.9.1
   assetPath: Assets/EditorAttributes/Runtime/Scripts/Attributes/GroupingAttributes/VerticalGroupAttribute.cs
-  uploadId: 778683
+  uploadId: 797058

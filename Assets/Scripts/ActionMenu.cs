@@ -15,7 +15,7 @@ public class ActionMenu : MonoBehaviour
     {
         characterImage.sprite = character.GetComponent<Image>().sprite;
         animator = GetComponent<Animator>();
-        animator.SetFloat("CardRarity", character.GetComponent<Character>().CardRarity);
+        animator.SetFloat("CardRarity", character.GetComponent<Character>().CharacterRarity);
     }
     public void Close()
     {

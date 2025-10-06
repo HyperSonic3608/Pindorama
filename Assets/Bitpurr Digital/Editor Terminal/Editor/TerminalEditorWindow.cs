@@ -19,13 +19,14 @@ using HistoryBufferUIElement = UnityEngine.UIElements.TextField;
 
 namespace BitpurrDigital
 {
+    
     [Serializable]
     public class TerminalEditorWindowData
     {
         public string historyBuffer = "";
         public string commandBuffer = "";
     }
-
+    
     public class TerminalEditorWindow : EditorWindow
     {
         private TerminalEditorWindowData _terminalData = new TerminalEditorWindowData();
@@ -44,10 +45,11 @@ namespace BitpurrDigital
 
         private string _path = Path.GetFullPath(Path.Combine(Application.dataPath, $"..{Path.DirectorySeparatorChar}"));
 #pragma warning disable CS0414
-        private const string Unity6UxmlPath = "Assets/Bitpurr Digital/Editor Terminal/Editor/TerminalUI_Unity6.uxml";
-        private const string Unity5UxmlPath = "Assets/Bitpurr Digital/Editor Terminal/Editor/TerminalUI_Unity5.uxml";
+        private static readonly string Unity6UxmlPath = Path.Combine(GetBasePath(), "TerminalUI_Unity6.uxml");
+        private static readonly string Unity5UxmlPath = Path.Combine(GetBasePath(), "TerminalUI_Unity5.uxml");
 #pragma warning restore CS0414
-        private const string IconPath = "Assets/Bitpurr Digital/Editor Terminal/Icon.png";
+        private static readonly string IconPath = Path.Combine(Path.GetDirectoryName(GetBasePath()), "Icon.png");
+
 
         private const string InternalCommandPrefix = "editorterminal";
         private const string InternalCommandShortPrefix = "et";
@@ -68,7 +70,7 @@ namespace BitpurrDigital
         private const string CommandBufferTextUIName = "commandBufferText";
         private const string ChevronLabelUIName = "chevron";
         private const string ScrollViewUIName = "scroll";
-        private const string Version = "1.4.1";
+        private const string Version = "1.4.2";
 
         private string GitLocation
         {
@@ -161,6 +163,32 @@ namespace BitpurrDigital
 #endif
 
             return false;
+        }
+        
+        private static string GetBasePath()
+        {
+            // Find all Bitpurr Digital folders in the project
+            var bitpurrFolders = AssetDatabase.FindAssets("Bitpurr Digital")
+                .Select(AssetDatabase.GUIDToAssetPath)
+                .Where(path => Path.GetFileName(path) == "Bitpurr Digital" && Directory.Exists(path))
+                .ToArray();
+
+            if (bitpurrFolders.Length == 0)
+            {
+                Debug.LogError("Could not find 'Bitpurr Digital' folder!");
+                return "Assets/Bitpurr Digital/Editor Terminal/Editor";  // Fallback to original path
+            }
+
+            // Search for the script in all Bitpurr Digital folders
+            var scripts = AssetDatabase.FindAssets("t:Script TerminalEditorWindow", bitpurrFolders);
+            if (scripts.Length == 0)
+            {
+                Debug.LogError("Could not find TerminalEditorWindow script in any Bitpurr Digital folder!");
+                return "Assets/Bitpurr Digital/Editor Terminal/Editor";  // Fallback to original path
+            }
+    
+            var scriptPath = AssetDatabase.GUIDToAssetPath(scripts[0]);
+            return Path.GetDirectoryName(scriptPath);
         }
 
 
