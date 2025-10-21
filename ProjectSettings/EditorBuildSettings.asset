@@ -7,13 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: 1e1422f26e94bd444b0e71e248d8dce8
+    guid: ec08d475f2c738f40810e7e8d563d3b0
   - enabled: 1
     path: Assets/Scenes/MapaAldeiaTukano.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/MapaAldeiaYanomami.unity
+    guid: 0ea55d2e049eea646965aa01478debbd
+  - enabled: 1
     path: Assets/Scenes/CombatScreen.unity
     guid: 3f1a821c41901094dbf5d530e14ed2f0
+  - enabled: 1
+    path: Assets/Scenes/MapaAldeiaTupinamba.unity
+    guid: 00546702dd28a5e498dcb226a70cf1e2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
