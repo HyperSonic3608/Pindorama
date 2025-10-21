@@ -106546,7 +106546,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -106752,6 +106752,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce657126c5ee2d4d8e87750406a1426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animations:
+  - {fileID: 9100000, guid: 6001a87f5e5594f4e89f9836cccfaca9, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &959209677
 GameObject:
   m_ObjectHideFlags: 0
@@ -108186,7 +108190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 87430515, guid: f689ced1910677f429795fda7f853fee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -108708,10 +108712,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 3455138964592296348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -71.5, y: -104}
-  m_SizeDelta: {x: 168, y: 311}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 1.2125, y: 120}
+  m_SizeDelta: {x: 240, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4151641161953037082
 GameObject:
