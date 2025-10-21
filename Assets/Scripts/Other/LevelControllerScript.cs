@@ -6,6 +6,8 @@ public class LevelControllerScript : MonoBehaviour
 {
     private BoxCollider2D playerBoxCollider2D;
     private BoxCollider2D boxCollider2D;
+    [SerializeField] string mapa;
+
     void Start()
     {
         playerBoxCollider2D = GameObject.Find("Player").GetComponent<BoxCollider2D>();
@@ -15,7 +17,7 @@ public class LevelControllerScript : MonoBehaviour
     {
         if (playerBoxCollider2D.IsTouching(boxCollider2D))
         {
-            SceneManager.LoadScene("CombatScreen");
+            SceneManager.LoadScene(mapa);
         }
     }
 
