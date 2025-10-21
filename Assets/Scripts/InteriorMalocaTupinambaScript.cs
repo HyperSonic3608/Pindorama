@@ -1,0 +1,34 @@
+using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Tilemaps;
+
+public class InteriorMalocaTupinambaScript : MonoBehaviour
+{
+    private BoxCollider2D playerBoxCollider2D;
+    private PolygonCollider2D polygonCollider2D;
+    private Tilemap tilemap;
+    private Color color;
+    [SerializeField] Light2D light2D;
+
+    void Start()
+    {
+        polygonCollider2D = GetComponent<PolygonCollider2D>();
+        playerBoxCollider2D = GameObject.Find("Player").GetComponent<BoxCollider2D>();
+        tilemap = GetComponent<Tilemap>();
+        color = tilemap.color;
+    }
+
+    void Update()
+    {
+        if (polygonCollider2D.IsTouching(playerBoxCollider2D))
+        {
+            tilemap.color = new Color(1f, 1f, 1f, 0.2f);
+            light2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
+        }
+        else
+        {
+            tilemap.color = color;
+            light2D.color = new Color(1f, 1f, 1f, 1f);
+        }
+    }
+}
