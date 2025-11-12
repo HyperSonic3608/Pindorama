@@ -5,6 +5,7 @@ public class PagesControl : MonoBehaviour
     public GameObject compendio;
     public GameObject consumiveis;
     public GameObject aliados;
+    public GameObject menu;
 
     void Start()
     {
@@ -32,5 +33,10 @@ public class PagesControl : MonoBehaviour
         compendio.SetActive(false);
         consumiveis.SetActive(false);
         aliados.SetActive(true);
+    }
+
+    public void CloseMenu ()
+    {
+        menu.SetActive(false);
     }
 }
