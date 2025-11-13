@@ -41,4 +41,24 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("InputX", moveInput.x);
         animator.SetFloat("InputY", moveInput.y);
     }
+
+    public void Smoke(InputAction.CallbackContext context)
+    {
+        animator.SetBool("isSmoking", true);
+
+        if (context.canceled)
+        {
+            animator.SetBool("isSmoking", false);
+        }
+    }
+
+    public void Run(InputAction.CallbackContext context)
+    {
+        moveSpeed = 20;
+
+        if (context.canceled)
+        {
+            moveSpeed = 5;
+        }
+    }
 }

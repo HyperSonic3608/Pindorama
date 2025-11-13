@@ -8,14 +8,14 @@ public class FinishRoll : StateMachineBehaviour
     {
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         
-        // if (combatLogic.character.animationObject.activeSelf)
-        // {
-        //     combatLogic.character.animationObject.transform.DOMove(combatLogic.enemy.transform.position,5);
-        // }
-        // else
-        // {
-            
-        // }
+        if (combatLogic.character.animationObject.activeSelf)
+        {
+            combatLogic.character.animationObject.GetComponent<Animator>().SetBool("isActive",true);
+            // combatLogic.character.animationObject.transform.DOMove(combatLogic.enemy.transform.position,1);
+        }
+        else
+        {
+        }
         combatLogic.UpdateCombatPhase(5);
     }
 

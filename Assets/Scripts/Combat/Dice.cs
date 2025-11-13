@@ -1,10 +1,9 @@
 using UnityEngine;
 using DG.Tweening;
-using UnityEditor.Animations;
 
 public class Dice : MonoBehaviour
 {
-    [SerializeField] private AnimatorController[] animations;
+    [SerializeField] private RuntimeAnimatorController[] animations;
     private Dado dado;
     private CombatLogic combatLogic;
     private Animator animator;

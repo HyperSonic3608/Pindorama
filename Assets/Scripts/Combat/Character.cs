@@ -1,4 +1,3 @@
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -8,7 +7,7 @@ public class Character : MonoBehaviour
     public GameObject animationObject;
     public GameObject animationBigObject;
     [SerializeField] private CanvasGroup canvasGroup;
-    [SerializeField] private AnimatorController[] animator;
+    [SerializeField] private RuntimeAnimatorController[] animator;
     public Aliado aliado { get; private set; }
     private bool isBruto;
     private CombatLogic combatLogic;

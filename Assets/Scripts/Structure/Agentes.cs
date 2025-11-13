@@ -1,5 +1,3 @@
-using UnityEditor.Purchasing;
-
 public abstract class Agente
 {
 	protected Personagem personagem;
