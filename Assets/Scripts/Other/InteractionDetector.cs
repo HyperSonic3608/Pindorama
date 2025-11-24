@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableRange = null;
+
+    public static bool canMove = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,6 +16,13 @@ public class InteractionDetector : MonoBehaviour
         if (context.performed)
         {
             interactableRange?.Interact();
+            if (canMove)
+            {
+                canMove = false;
+            } else
+            {
+                canMove = true;
+            }
         }
     }
 
