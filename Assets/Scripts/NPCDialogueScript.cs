@@ -8,6 +8,8 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
 
     private bool isDialogueActive;
 
+    private bool playerCanMove = true;
+
     public bool CanInteract()
     {
         return !isDialogueActive;
@@ -30,10 +32,17 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
     {
         isDialogueActive = false;
         dialoguePanel.SetActive(false);
+        playerCanMove = true;
     }
     void StartDialogue()
     {
         isDialogueActive = true;
         dialoguePanel.SetActive(true);
+        playerCanMove = false;
+    }
+
+    public bool GetPlayerCanMove()
+    {
+        return this.playerCanMove;
     }
 }

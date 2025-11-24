@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Transform sprite;
 
+    private InteractionDetector interactionDetector;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,7 +31,6 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         animator.SetBool("isWalking", true);
-
         if (context.canceled)
         {
             animator.SetBool("isWalking", false);
@@ -37,9 +38,17 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("lastInputY", moveInput.y);
         }
 
-        moveInput = context.ReadValue<Vector2>();
-        animator.SetFloat("InputX", moveInput.x);
-        animator.SetFloat("InputY", moveInput.y);
+        if (InteractionDetector.canMove)
+        {
+            
+            moveInput = context.ReadValue<Vector2>();
+            animator.SetFloat("InputX", moveInput.x);
+            animator.SetFloat("InputY", moveInput.y);
+        }else
+        {
+            animator.SetBool("isWalking", false);
+        }
+        
     }
 
     public void Smoke(InputAction.CallbackContext context)
