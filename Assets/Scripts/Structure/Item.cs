@@ -4,7 +4,7 @@ public abstract class Item
 {
 	public enum Raridade
 	{
-		Normal,
+		Normal = 1,
 		Raro,
 		Lendário,
 	}
