@@ -10,6 +10,7 @@ public class TreeOpacityScript : MonoBehaviour
     private Color color;
     private Tilemap tilemap;
     [SerializeField] Light2D globalLight2D;
+    [SerializeField] PixelPerfectCamera camera;
     private Light2D playerLight2D;
     void Start()
     {
@@ -25,16 +26,18 @@ public class TreeOpacityScript : MonoBehaviour
         if (polygonCollider2D.IsTouching(playerBoxCollider2D))
         {
             tilemap.color = new Color(1f, 1f, 1f, 0.1f);
-            globalLight2D.intensity = 0.1f;
+            globalLight2D.intensity = 0.3f;
             globalLight2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
             playerLight2D.enabled = true;
+            camera.assetsPPU = 96;
         }
-        else if(malocaCompositeCollider2D.IsTouching(playerBoxCollider2D) == false)
+        else if (malocaCompositeCollider2D.IsTouching(playerBoxCollider2D) == false)
         {
             tilemap.color = color;
             globalLight2D.intensity = 1f;
             globalLight2D.color = new Color(1f, 1f, 1f, 1f);
             playerLight2D.enabled = false;
+            camera.assetsPPU = 32;
         }
     }
 }

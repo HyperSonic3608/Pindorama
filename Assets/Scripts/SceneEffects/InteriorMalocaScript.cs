@@ -9,6 +9,7 @@ public class InteriorMalocaScript : MonoBehaviour
     private Tilemap tilemap;
     private Color color;
     [SerializeField] Light2D light2D;
+    [SerializeField] PixelPerfectCamera camera;
 
     void Start()
     {
@@ -24,12 +25,14 @@ public class InteriorMalocaScript : MonoBehaviour
         {
             tilemap.color = new Color(1f, 1f, 1f, 0.2f);
             light2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
+            camera.assetsPPU = 96;
         }
         else
         {
             tilemap.color = color;
             light2D.color = new Color(1f, 1f, 1f, 1f);
+            camera.assetsPPU = 32;
         }
-        
+
     }
 }
