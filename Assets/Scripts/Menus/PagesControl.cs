@@ -9,8 +9,8 @@ public class PagesControl : MonoBehaviour
 
     void Start()
     {
-        compendio.SetActive(false);
-        consumiveis.SetActive(true);
+        compendio.SetActive(true);
+        consumiveis.SetActive(false);
         aliados.SetActive(false);
     }
 
