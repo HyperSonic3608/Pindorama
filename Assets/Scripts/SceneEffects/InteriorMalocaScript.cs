@@ -9,7 +9,7 @@ public class InteriorMalocaScript : MonoBehaviour
     private Tilemap tilemap;
     private Color color;
     [SerializeField] Light2D light2D;
-    [SerializeField] PixelPerfectCamera camera;
+    [SerializeField] new PixelPerfectCamera camera;
 
     void Start()
     {
