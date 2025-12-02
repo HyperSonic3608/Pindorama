@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private Transform sprite;
 
     private InteractionDetector interactionDetector;
+    
+    [SerializeField] string mapa;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -49,6 +51,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking", false);
         }
         
+        if(mapa == "MapaFuturo")
+        {
+            animator.SetBool("TukanoMode", true);
+        }
+        else
+        {
+            animator.SetBool("TukanoMode", false);
+        }
     }
 
     public void Smoke(InputAction.CallbackContext context)
