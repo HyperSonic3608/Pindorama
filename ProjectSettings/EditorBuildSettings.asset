@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapaFuturo.unity
     guid: eedceeafcd88da2428adb2b8164f8603
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/TukanoModeCutscene.unity
+    guid: 45f55c22feb31c949899a50aa4852c77
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/MaeTerraCutscene.unity
+    guid: 35b62901ae9a91c468b18fb63db5b21f
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/AldeiaTupinambaCutscene.unity
+    guid: 31a198a8fb4ac854181c616e855fd7cd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

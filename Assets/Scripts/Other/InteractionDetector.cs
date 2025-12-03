@@ -19,7 +19,8 @@ public class InteractionDetector : MonoBehaviour
             if (canMove)
             {
                 canMove = false;
-            } else
+            }
+            else
             {
                 canMove = true;
             }
@@ -34,7 +35,7 @@ public class InteractionDetector : MonoBehaviour
             interactableRange = interactable;
         }
     }
-    
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableRange)

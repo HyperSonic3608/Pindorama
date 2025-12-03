@@ -10,7 +10,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
     public TMP_Text dialogueText;
     private int dialogueIndex;
     private bool isTyping;
-
+    [SerializeField] string mapa;
 
     public GameObject dialoguePanel;
 
@@ -34,7 +34,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
         if (!isDialogueActive)
         {
             StartDialogue();
-            
+
         }
         else
         {
@@ -67,7 +67,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
         isTyping = true;
         dialogueText.SetText("");
 
-        foreach(char letter in dialogueData.dialogueLines[dialogueIndex])
+        foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(dialogueData.typingSpeed);
@@ -75,7 +75,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
 
         isTyping = false;
 
-        if(dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
+        if (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
         {
             yield return new WaitForSeconds(dialogueData.autoProgressDelay);
             NextLine();
@@ -90,7 +90,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
-        else if(++dialogueIndex < dialogueData.dialogueLines.Length)
+        else if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
             StartCoroutine(TypeLine());
         }
@@ -103,5 +103,13 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
     public bool GetPlayerCanMove()
     {
         return this.playerCanMove;
+    }
+
+    public void Start()
+    {
+        if (mapa == "C")
+        {
+            Interact();
+        }
     }
 }
