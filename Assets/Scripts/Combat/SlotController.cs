@@ -11,7 +11,8 @@ public class SlotController : MonoBehaviour
     [SerializeField] private GameObject EnemyPrefab;
     private int slotPlayerCount;
     private int slotEnemyCount;
-    private Slot[] slots;
+    private Slot[] playerSlots;
+    private Slot[] enemySlots;
 
     private void SlotCreator(int i, bool isPlayer)
     {
@@ -27,17 +28,20 @@ public class SlotController : MonoBehaviour
                 GameObject enemy = Instantiate(EnemyPrefab, slot.transform);
                 enemy.name = "Enemy " + (i + j + 1);
                 enemy.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 30);
+                slot.GetComponent<Slot>().currentCharacter = enemy;
+                enemySlots[i + j] = slot.GetComponent<Slot>();
             }
             else
             {
-                slots[i + j] = slot.GetComponent<Slot>();
+                playerSlots[i + j] = slot.GetComponent<Slot>();
             }
         }
     }
 
     public void SlotCreator(int slotPlayerCount, int slotEnemyCount)
     {
-        slots = new Slot[slotPlayerCount];
+        playerSlots = new Slot[slotPlayerCount];
+        enemySlots = new Slot[slotEnemyCount];
         this.slotPlayerCount = slotPlayerCount;
         this.slotEnemyCount = slotEnemyCount;
         for (int i = 0; i < slotPlayerCount; i += 2)
@@ -53,6 +57,17 @@ public class SlotController : MonoBehaviour
 
     public Slot[] GetSlots()
     {
+        Slot[] slots = new Slot[slotPlayerCount + slotEnemyCount];
+        
+        for (int i = 0; i < slotPlayerCount; i++)
+        {
+            slots[i] = playerSlots[i];
+        }
+        for (int i = 0; i < slotEnemyCount; i++)
+        {
+            slots[i + slotPlayerCount] = enemySlots[i];
+        }
+
         return slots;
     }
 }
