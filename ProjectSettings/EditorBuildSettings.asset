@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/AldeiaTupinambaCutscene.unity
     guid: 31a198a8fb4ac854181c616e855fd7cd
+  - enabled: 1
+    path: Assets/Scenes/Maps/MapaTeletransporte.unity
+    guid: c3567c4bb0d0f3949b52b1016e297328
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

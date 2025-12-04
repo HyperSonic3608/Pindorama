@@ -1,16 +1,32 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AttackController : MonoBehaviour
 {
     [SerializeField] Animator animator;
-    [SerializeField] float animationId;
-    void Start()
+    [SerializeField] private CombatLogic combatLogic;
+    [SerializeField] private ActionMenu actionMenu;
+
+    public void Show()
     {
-        animator.SetFloat("Type", 0);
+        StartCoroutine(Coroutine());
     }
 
-    void Update()
+    IEnumerator Coroutine()
     {
-        animator.SetFloat("Type", animationId);
+        transform.parent.GetComponent<Image>().enabled = false;
+        transform.GetComponent<Image>().enabled = false;
+        transform.GetChild(0).GetComponent<Image>().enabled = false;
+        yield return new WaitForSeconds(0.5f);
+        animator.SetFloat("TypeAction", actionMenu.lastActionType);
+        animator.SetFloat("TypeWeapon", (float)combatLogic.character.aliado.arma.tipo);
+        animator.SetFloat("TypeOption", actionMenu.lastButtonPressed);
+        animator.SetFloat("TypeRarity", (float)combatLogic.character.aliado.arma.raridade);
+        animator.SetBool("isActive", true);
+        transform.parent.GetComponent<Image>().enabled = true;
+        transform.GetComponent<Image>().enabled = true;
+        transform.GetChild(0).GetComponent<Image>().enabled = true;
     }
+
 }
