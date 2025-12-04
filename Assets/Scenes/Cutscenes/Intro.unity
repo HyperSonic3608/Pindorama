@@ -319,6 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  portal: {fileID: 0}
   mapa: 
 --- !u!114 &8382307
 MonoBehaviour:
@@ -2396,6 +2397,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
     - target: {fileID: 6498812529237044901, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6498812529237044901, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
@@ -3301,7 +3306,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   dialogueData: {fileID: 11400000, guid: 911aa5f3564915343bce1b107d9de587, type: 2}
   dialogueText: {fileID: 369313962}
-  mapa: C
+  condicaoFuncionamento: 1
+  mapa: 
+  switchMap: 0
   dialoguePanel: {fileID: 253994600}
 --- !u!95 &2000890102
 Animator:
