@@ -18,6 +18,6 @@ MonoBehaviour:
   - "E isso n\xE3o \xE9 o pior, o pior \xE9 que furrys come\xE7ar\xE3o a existir"
   - "Mas voc\xEA pode encacetar os brancos na porrada para impedir isso"
   - "Eles chegar\xE3o pelo mar, em grandes monstros de madeira"
-  autoProgressLines: 01010100
+  autoProgressLines: 01010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08

@@ -25,7 +25,7 @@ public class InteriorMalocaScript : MonoBehaviour
         {
             tilemap.color = new Color(1f, 1f, 1f, 0.2f);
             light2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
-            camera.assetsPPU = 96;
+            camera.assetsPPU = 48;
         }
         else
         {

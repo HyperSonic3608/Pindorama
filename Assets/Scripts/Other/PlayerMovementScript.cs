@@ -6,15 +6,14 @@ using System.Threading;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] GameObject portal;
+    [SerializeField] string mapa;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
     private Transform sprite;
 
     private InteractionDetector interactionDetector;
-    
-    [SerializeField] string mapa;
-
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,16 +41,17 @@ public class PlayerMovement : MonoBehaviour
 
         if (InteractionDetector.canMove)
         {
-            
+
             moveInput = context.ReadValue<Vector2>();
             animator.SetFloat("InputX", moveInput.x);
             animator.SetFloat("InputY", moveInput.y);
-        }else
+        }
+        else
         {
             animator.SetBool("isWalking", false);
         }
-        
-        if(mapa == "MapaFuturo")
+
+        if (mapa == "MapaFuturo")
         {
             animator.SetBool("TukanoMode", true);
         }
@@ -65,10 +65,16 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("isSmoking", true);
 
+        if (mapa == "MapaTeletransporte")
+        {
+            portal.SetActive(true);
+        }
+
         if (context.canceled)
         {
             animator.SetBool("isSmoking", false);
         }
+
     }
 
     public void Run(InputAction.CallbackContext context)
