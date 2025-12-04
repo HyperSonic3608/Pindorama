@@ -1,3 +1,5 @@
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -12,17 +14,19 @@ public class Character : MonoBehaviour
     private bool isBruto;
     private CombatLogic combatLogic;
     private GameObject actionMenu;
+    public Texts attackTexts { get; private set; }
     public Image image { get; private set; }
     public int rarity { get; private set; }
 
     void Start()
     {
-        aliado = new Aliado("Indígena", Personagem.Classe.Indigena, Personagem.Tipo.Mediano, new Arma(Arma.Tipo.Faca, (Item.Raridade)Random.Range(0,3)));
+        aliado = new Aliado("Indígena", Personagem.Classe.Indigena, Personagem.Tipo.Mediano, new Arma((Arma.Tipo)Random.Range(10,13), (Item.Raridade)Random.Range(0,3)));
         rarity = (int)aliado.arma.raridade;
         transform.parent.GetComponent<Animator>().SetFloat("CardRarity", rarity);
         canvasGroup = GetComponent<CanvasGroup>();
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         actionMenu = GameObject.FindGameObjectWithTag("ActionMenu");
+        attackTexts = AssetDatabase.LoadAssetAtPath<Texts>("Assets/Texts/Attacks/"+aliado.arma.tipo.ToString()+".asset");
         SetAnimator(aliado.tipo);
     }
 
@@ -55,7 +59,7 @@ public class Character : MonoBehaviour
                 combatLogic.character = this;
                 actionMenu.transform.SetPositionAndRotation(new Vector3(actionMenu.transform.position.x * -1, actionMenu.transform.position.y, actionMenu.transform.position.z), actionMenu.transform.rotation);
                 actionMenu.GetComponent<ActionMenu>().character = gameObject;
-                actionMenu.GetComponent<ActionMenu>().UpdateImage();
+                actionMenu.GetComponent<ActionMenu>().UpdateMenu();
                 combatLogic.UpdateCombatPhase(2);
             }
         }
