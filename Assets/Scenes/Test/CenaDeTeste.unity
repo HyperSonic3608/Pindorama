@@ -956,6 +956,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   dialogueData: {fileID: 11400000, guid: e5185923e45b696448a622fea04d467b, type: 2}
   dialogueText: {fileID: 1731943832}
+  condicaoFuncionamento: 0
+  mapa: 
+  switchMap: 0
   dialoguePanel: {fileID: 801765905}
 --- !u!95 &791658092
 Animator:
@@ -1604,6 +1607,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  portal: {fileID: 0}
+  mapa: 
 --- !u!114 &1119955865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,6 +2293,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   dialogueData: {fileID: 0}
   dialogueText: {fileID: 0}
+  condicaoFuncionamento: 0
+  mapa: 
+  switchMap: 0
   dialoguePanel: {fileID: 0}
 --- !u!95 &1475274348
 Animator:
@@ -3704,7 +3712,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

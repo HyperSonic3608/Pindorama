@@ -20,9 +20,9 @@ MonoBehaviour:
   - O povo Tukano
   - "Em seguida, voc\xEA visitou o povo Yanomami"
   - "Conseguindo aliados l\xE1 tamb\xE9m"
-  - "E por fim, voc\xEA encontrou com o grandes guerreiros tupinamb\xE1s"
+  - "E por fim, voc\xEA encontrou com os grandes guerreiros tupinamb\xE1s"
   - "Parab\xE9ns pela jornada"
   - "Por\xE9m a guerra ainda n\xE3o come\xE7ou..."
-  autoProgressLines: 010101
+  autoProgressLines: 01010101010101010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08

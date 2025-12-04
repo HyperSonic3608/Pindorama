@@ -30,6 +30,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/MaeTerraCutscene.unity
     guid: 35b62901ae9a91c468b18fb63db5b21f
   - enabled: 1
+    path: Assets/Scenes/Test/CenaDeTeste.unity
+    guid: 618d72f413b4e70458297ab58d88463c
+  - enabled: 1
+    path: Assets/Scenes/Maps/MapaTeletransporte.unity
+    guid: c3567c4bb0d0f3949b52b1016e297328
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Intro.unity
+    guid: 07745f6e8874308448ca366be2401f55
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/EndingCutscene.unity
+    guid: e7366d6e08f37944986d4824ea13ac4c
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/AldeiaTupinambaCutscene.unity
     guid: 31a198a8fb4ac854181c616e855fd7cd
   m_configObjects:
