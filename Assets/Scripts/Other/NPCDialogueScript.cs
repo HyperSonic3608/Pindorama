@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NPCDialogueScript : MonoBehaviour, IInteractable
 {
@@ -10,7 +11,9 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
     public TMP_Text dialogueText;
     private int dialogueIndex;
     private bool isTyping;
+    [SerializeField] bool condicaoFuncionamento;
     [SerializeField] string mapa;
+    [SerializeField] bool switchMap;
 
     public GameObject dialoguePanel;
 
@@ -51,14 +54,26 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
         isDialogueActive = false;
         dialoguePanel.SetActive(false);
         playerCanMove = true;
+
+        if (switchMap == true)
+        {
+            SceneManager.LoadScene(mapa);
+        }
     }
     void StartDialogue()
     {
         isDialogueActive = true;
         dialoguePanel.SetActive(true);
-        playerCanMove = false;
         dialogueIndex = 0;
 
+        if (condicaoFuncionamento == false)
+        {
+            playerCanMove = false;
+        }
+        else
+        {
+            playerCanMove = true;
+        }
         StartCoroutine(TypeLine());
     }
 
@@ -107,7 +122,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
 
     public void Start()
     {
-        if (mapa == "C")
+        if (condicaoFuncionamento == true)
         {
             Interact();
         }

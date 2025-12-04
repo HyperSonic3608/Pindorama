@@ -29,7 +29,7 @@ public class TreeOpacityTupinambaScript : MonoBehaviour
             globalLight2D.intensity = 0.1f;
             globalLight2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
             playerLight2D.enabled = true;
-            camera.assetsPPU = 96;
+            camera.assetsPPU = 48;
         }
         else if (malocaCompositeCollider2D.IsTouching(playerBoxCollider2D) == false)
         {

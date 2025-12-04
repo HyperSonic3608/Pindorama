@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbeaa9cae75a5c84ca53d783a0464332, type: 3}
+  m_Name: EndingDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  dialogueLines:
+  - "Ol\xE1 grande guerreiro Yai"
+  - Durante sua jornada
+  - "Voc\xEA reuniu aliados de v\xE1rios povos"
+  - "Voc\xEA iniciou sua jornada em uma aldeia de seu povo"
+  - O povo Tukano
+  - "Em seguida, voc\xEA visitou o povo Yanomami"
+  - "Conseguindo aliados l\xE1 tamb\xE9m"
+  - "E por fim, voc\xEA encontrou com o grandes guerreiros tupinamb\xE1s"
+  - "Parab\xE9ns pela jornada"
+  - "Por\xE9m a guerra ainda n\xE3o come\xE7ou..."
+  autoProgressLines: 010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.08

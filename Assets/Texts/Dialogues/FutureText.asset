@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: FutureText
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   dialogueLines:
-  - Ano de 2025
+  - Ano de 20XX
   - "Floresta Amaz\xF4nica"
-  autoProgressLines: 0101
+  - '*pressione E para continuar*'
+  autoProgressLines: 010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08
