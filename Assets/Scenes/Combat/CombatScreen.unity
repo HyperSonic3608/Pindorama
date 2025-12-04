@@ -106735,7 +106735,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -106848,7 +106848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &856601303
 RectTransform:
   m_ObjectHideFlags: 0
@@ -108931,7 +108931,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ataque
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
@@ -109021,7 +109021,6 @@ MonoBehaviour:
   - {fileID: 9178260564260338677}
   characterImage: {fileID: 1476851725099055688}
   combatLogic: {fileID: 2016785661}
-  lastButtonPressed: {fileID: 0}
 --- !u!114 &3729648258593435931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109269,7 +109268,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.80784315, g: 0.627451, b: 0.6039216, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -109538,7 +109537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ataque
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
@@ -109633,7 +109632,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.8077112, g: 0.62720037, b: 0.6042263, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -109703,7 +109702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ataque
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}

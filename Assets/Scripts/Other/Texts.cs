@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="NewNPCDialogue", menuName ="NPC Dialogue")]
-public class NPCDialogue : ScriptableObject
+[CreateAssetMenu(fileName ="NewText", menuName ="Texts")]
+public class Texts : ScriptableObject
 {
     public string[] dialogueLines;
     public bool[] autoProgressLines;

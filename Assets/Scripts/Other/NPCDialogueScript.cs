@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class NPCDialogueScript : MonoBehaviour, IInteractable
 {
-    public NPCDialogue dialogueData;
+    public Texts dialogueData;
     public TMP_Text dialogueText;
     private int dialogueIndex;
     private bool isTyping;

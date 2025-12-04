@@ -11,7 +11,7 @@ public class Arma : Item
         Zarabatana = 13
     }
 
-    private Tipo tipo;
+    public Tipo tipo { get; private set; }
     // private EfeitosArma efeitos;
     private float dano;
 
