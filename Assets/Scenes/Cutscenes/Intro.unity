@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeSceneTimer
   time: 20
-  mapa: MapaAldeiaTukano
+  mapa: MaeTerraCutscene
 --- !u!1 &662148583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,25 +1243,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &711259440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 181198271937111360, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
-  m_PrefabInstance: {fileID: 1399171408}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &711259442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711259440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
-  m_Padding: {x: 0, y: 0, z: 0, w: 0}
-  m_Softness: {x: 0, y: 0}
 --- !u!1 &733449429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,9 +2557,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 306598304}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 181198271937111360, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 711259442}
     - targetCorrespondingSourceObject: {fileID: 5655342880561920284, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
       insertIndex: -1
       addedObject: {fileID: 882731532}

@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: MaeTerraDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   dialogueLines:
-  - "Ol\xE1 grande guerreiro Yai."
-  - "Sou M\xE3e Terra."
-  - "Voc\xEA dever\xE1 partir em uma jornada para impedir a Grande Invas\xE3o."
-  - "Voc\xEA dever\xE1 impedir a Queda do C\xE9u."
-  - "Caras p\xE1lidas chegaram pelo litoral ao leste."
-  - "Eles invadir\xE3o esta terra e trar\xE3o grande destrui\xE7\xE3o."
-  - No futuro.
-  - "Se voc\xEA n\xE3o os impedir."
-  - "Nossa terra sofrer\xE1 com."
-  - Queimadas.
-  - Desmatamento.
-  - Envenenamento de nossos rios.
-  - Por causa do garimpo ilegal.
-  - "Tudo isso por causa da gan\xE2ncia deles."
-  - "Portanto. voc\xEA dever\xE1 partir em uma jornada."
-  - Uma jornada para reuniar aliados dos mais diversos povos desta terra.
-  - "Assim, voc\xEA poder\xE1 impedir os invasores."
-  - E salvar nossa terra.
-  - O Pindorama.
+  - "Ol\xE1 grande guerreiro Yai"
+  - "Sou M\xE3e Terra"
+  - "Voc\xEA dever\xE1 partir em uma jornada para impedir a Grande Invas\xE3o"
+  - "Voc\xEA dever\xE1 impedir a Queda do C\xE9u"
+  - "Caras p\xE1lidas chegaram pelo litoral ao leste"
+  - "Eles invadir\xE3o esta terra e trar\xE3o grande destrui\xE7\xE3o"
+  - No futuro
+  - "Se voc\xEA n\xE3o os impedir"
+  - "Nossa terra sofrer\xE1 com"
+  - Queimadas
+  - Desmatamento
+  - Envenenamento de nossos rios
+  - Por causa do garimpo ilegal
+  - "Tudo isso por causa da gan\xE2ncia deles"
+  - "Portanto. voc\xEA dever\xE1 partir em uma jornada"
+  - Uma jornada para reuniar aliados dos mais diversos povos desta terra
+  - "Assim, voc\xEA poder\xE1 impedir os invasores"
+  - E salvar nossa terra
+  - O Pindorama
   autoProgressLines: 01010101010101010101010101010101010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08
