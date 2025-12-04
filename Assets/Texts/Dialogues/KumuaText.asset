@@ -12,7 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbeaa9cae75a5c84ca53d783a0464332, type: 3}
   m_Name: KumuaText
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  dialogueLines: []
-  autoProgressLines: 010101
+  dialogueLines:
+  - "Yai, xam\xE3 iniciante"
+  - "Parece que voc\xEA se conectou"
+  - Com o mundo espiritual pela primeira vez
+  - "O que voc\xEA viu?"
+  - "Isto \xE9 grave"
+  - Yai
+  - "Voc\xEA ter\xE1 que seguir os conselhos da M\xE3e Terra"
+  - "V\xE1 para aldeia do povo Yanomami"
+  - "Nossos vizinhos poder\xE3o te ajudar"
+  - Em sua jornada
+  - Siga para o sul e em seguida para o oeste
+  - "Assim voc\xEA chegar\xE1 na aldeia Yanomami"
+  autoProgressLines: 010101010101010101010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08

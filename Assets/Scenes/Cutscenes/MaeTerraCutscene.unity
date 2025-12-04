@@ -319,6 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  portal: {fileID: 0}
   mapa: 
 --- !u!114 &8382307
 MonoBehaviour:
@@ -1131,7 +1132,7 @@ Animator:
   m_GameObject: {fileID: 491908386}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 60742507eda718048b6723becdfd59e6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 33bca66d347066940b9ef26de78022a2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1207,7 +1208,7 @@ PlayableDirector:
   m_GameObject: {fileID: 502300392}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: e205424e4e587814ab44efe8f61de006, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 85f5ddfe0529ef04d8db951664c96776, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -1419,25 +1420,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &711259440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 181198271937111360, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
-  m_PrefabInstance: {fileID: 1399171408}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &711259442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711259440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
-  m_Padding: {x: 0, y: 0, z: 0, w: 0}
-  m_Softness: {x: 0, y: 0}
 --- !u!1 &733449429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,10 +2682,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 450704175168087288, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
       insertIndex: -1
       addedObject: {fileID: 306598304}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 181198271937111360, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 711259442}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b66a8f0edcf36e14bb6232cb9b626a15, type: 3}
 --- !u!1 &1500901092
 GameObject:
@@ -2922,7 +2901,7 @@ Animator:
   m_GameObject: {fileID: 1620488190}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 60742507eda718048b6723becdfd59e6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 33bca66d347066940b9ef26de78022a2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3430,7 +3409,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   dialogueData: {fileID: 11400000, guid: 87ead00db7dfd9948ad494b52ebf358a, type: 2}
   dialogueText: {fileID: 369313962}
-  mapa: C
+  condicaoFuncionamento: 1
+  mapa: MapaAldeiaTukano
+  switchMap: 1
   dialoguePanel: {fileID: 253994600}
 --- !u!95 &2000890102
 Animator:
