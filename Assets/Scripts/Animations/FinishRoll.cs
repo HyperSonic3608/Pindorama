@@ -1,21 +1,17 @@
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FinishRoll : StateMachineBehaviour
 {
     private CombatLogic combatLogic;
+    private AttackController attackController;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
-        
-        if (combatLogic.character.animationObject.activeSelf)
-        {
-            combatLogic.character.animationObject.GetComponent<Animator>().SetBool("isActive",true);
-            // combatLogic.character.animationObject.transform.DOMove(combatLogic.enemy.transform.position,1);
-        }
-        else
-        {
-        }
+        combatLogic.attackAnimaitons.SetActive(true);
+        attackController = combatLogic.attackAnimaitons.GetComponentInChildren<AttackController>();
+        attackController.Show();
         combatLogic.UpdateCombatPhase(5);
     }
 

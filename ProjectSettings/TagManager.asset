@@ -8,6 +8,8 @@ TagManager:
   - Logic
   - ActionMenu
   - GenericTree
+  - Dice
+  - Animation
   layers:
   - Default
   - TransparentFX

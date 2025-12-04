@@ -40,5 +40,10 @@ public class Enemy : MonoBehaviour
         {
             canvasGroup.alpha = 1;
         }
+        if (inimigo.vida == 0)
+        {
+            gameObject.SetActive(false);
+            combatLogic.kill();
+        }
     }
 }

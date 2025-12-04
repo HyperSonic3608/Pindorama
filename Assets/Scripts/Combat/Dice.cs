@@ -4,7 +4,7 @@ using DG.Tweening;
 public class Dice : MonoBehaviour
 {
     [SerializeField] private RuntimeAnimatorController[] animations;
-    private Dado dado;
+    public Dado dado { get; private set; }
     private CombatLogic combatLogic;
     private Animator animator;
     void Start()

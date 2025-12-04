@@ -1,11 +1,8 @@
-using DG.Tweening;
 using UnityEngine;
 
 public class Actions : StateMachineBehaviour
 {
-    [SerializeField] private AnimationClip walkingAnimation;
-    private Vector3 vector3 = new Vector3(0,0,0);
-
+    private CombatLogic combatLogic;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -13,19 +10,18 @@ public class Actions : StateMachineBehaviour
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        if (animator.GetCurrentAnimatorClipInfo(0).Equals(walkingAnimation))
-        {
-            animator.gameObject.transform.DOLocalMove(vector3, 1);
-        }
-    }
+    // override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    // {
+    //
+    // }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
+        GameObject.FindGameObjectWithTag("Animation").SetActive(false);
+        combatLogic.UpdateCombatPhase(6);
+    }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

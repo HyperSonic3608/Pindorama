@@ -15,6 +15,7 @@ public class Character : MonoBehaviour
     private CombatLogic combatLogic;
     private GameObject actionMenu;
     public Texts attackTexts { get; private set; }
+    public Texts magicTexts { get; private set; }
     public Image image { get; private set; }
     public int rarity { get; private set; }
 
@@ -26,7 +27,8 @@ public class Character : MonoBehaviour
         canvasGroup = GetComponent<CanvasGroup>();
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         actionMenu = GameObject.FindGameObjectWithTag("ActionMenu");
-        attackTexts = AssetDatabase.LoadAssetAtPath<Texts>("Assets/Texts/Attacks/"+aliado.arma.tipo.ToString()+".asset");
+        attackTexts = AssetDatabase.LoadAssetAtPath<Texts>("Assets/Texts/CombatActions/"+aliado.arma.tipo.ToString()+".asset");
+        magicTexts = AssetDatabase.LoadAssetAtPath<Texts>("Assets/Texts/CombatActions/Magica.asset");
         SetAnimator(aliado.tipo);
     }
 
