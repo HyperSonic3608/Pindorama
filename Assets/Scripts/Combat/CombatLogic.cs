@@ -45,6 +45,6 @@ public class CombatLogic : MonoBehaviour
     public void kill(){
         enemyCount--;
         if(enemyCount == 0)
-        SceneManager.LoadScene("MapaTeletransporte");
+        SceneManager.LoadScene("MapaAldeiaYanomami");
     }
 }
