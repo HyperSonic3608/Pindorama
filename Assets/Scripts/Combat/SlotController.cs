@@ -55,7 +55,7 @@ public class SlotController : MonoBehaviour
         }
     }
 
-    public Slot[] GetSlots()
+    public Slot[] GetSlots(int option = 0)
     {
         Slot[] slots = new Slot[slotPlayerCount + slotEnemyCount];
         
@@ -68,6 +68,14 @@ public class SlotController : MonoBehaviour
             slots[i + slotPlayerCount] = enemySlots[i];
         }
 
-        return slots;
+        switch (option)
+        {
+            case 1:
+            return playerSlots;
+            case 2:
+            return enemySlots;
+            default:
+            return slots;
+        }
     }
 }

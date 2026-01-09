@@ -106736,7 +106736,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -108627,8 +108627,6 @@ MonoBehaviour:
   dice: {fileID: 857835226}
   actionMenu: {fileID: 3592653193283606006}
   attackAnimaitons: {fileID: 856601302}
-  character: {fileID: 0}
-  enemy: {fileID: 0}
   playerCount: 1
   enemyCount: 1
   cardCount: 1
