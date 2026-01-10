@@ -3,6 +3,8 @@ using System.Collections.Generic;
 public class Combate
 {
 	public int turno { get; private set; }
+	public int ultimaAcao { get; private set; }
+	public int ultimaOrdem { get; private set; }
 	public List<Aliado> aliados;
 	public List<Inimigo> inimigos;
 
@@ -17,11 +19,21 @@ public class Combate
 		this.turno = turno;
 	}
 
-	public void realizarAcao(Agente realizador, Agente alvo, Dado dado, int acaoIndex, int ordemIndex)
+	public void setUltimaAcao(int acao)
+	{
+		ultimaAcao = acao;
+	}
+
+	public void setUltimaOrdem(int ordem)
+	{
+		ultimaOrdem = ordem;
+	}
+
+	public void realizarAcao(Agente realizador, Agente alvo, Dado dado)
 	{
 		if (realizador is Aliado)
 		{
-			((Aliado)realizador).Controle(alvo, dado, acaoIndex, ordemIndex);
+			((Aliado)realizador).Controle(alvo, dado, ultimaAcao, ultimaOrdem);
 
 			foreach (Aliado aliado in aliados)
 			{
@@ -41,7 +53,7 @@ public class Combate
 		}
 		else
 		{
-			((Inimigo)realizador).IA(alvo, dado);
+			(ultimaAcao, ultimaOrdem) = ((Inimigo)realizador).IA(alvo, dado);
 
 			foreach (Inimigo inimigo in inimigos)
 			{

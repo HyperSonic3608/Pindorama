@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,8 +7,8 @@ public class CombatLogic : MonoBehaviour
     [SerializeField] private SlotController slotController;
     [SerializeField] private CardController cardController;
     [SerializeField] private Dice dice;
-    [SerializeField] private ActionMenu actionMenu;
     public GameObject attackAnimaitons;
+    private AttackController attackController;
     public Agente realizador;
     public Agente alvo;
     private Combate combate;
@@ -15,6 +16,16 @@ public class CombatLogic : MonoBehaviour
     {
         get { return combate.turno; }
         set { combate.defineTurno(value); }
+    }
+    public int lastActionType
+    {
+        get { return combate.ultimaAcao; }
+        set { combate.setUltimaAcao(value); }
+    }
+    public int lastButtonPressed
+    {
+        get { return combate.ultimaOrdem; }
+        set { combate.setUltimaOrdem(value); }
     }
     public int playerCount;
     public int enemyCount;
@@ -25,6 +36,7 @@ public class CombatLogic : MonoBehaviour
         cardController.CardCreator(cardCount);
         combate = new Combate();
         combatPhase = 0;
+        attackController = attackAnimaitons.GetComponentInChildren<AttackController>();
     }
 
     public void SetAgents()
@@ -42,18 +54,21 @@ public class CombatLogic : MonoBehaviour
         }
     }
 
+    public void setAction(int type, int option)
+    {
+        lastActionType = type;
+        lastButtonPressed = option;
+    }
+
     public void UpdateCombatPhase(int nextPhase)
     {
         combatPhase = nextPhase;
-        if (nextPhase == 6)
+        if (nextPhase == 5)
         {
             realizador.SetJogouNesseTurno(true);
-            combate.realizarAcao(realizador, alvo, dice.dado, actionMenu.lastActionType, actionMenu.lastButtonPressed);
+            combate.realizarAcao(realizador, alvo, dice.dado);
             Debug.Log("Vida do realizador: " + realizador.vida + "\nVida do alvo: " + alvo.vida);
-            if (combatPhase == -1)
-            {
-                EnemyAttack();
-            }
+            attackController.Show();
         }
     }
 
