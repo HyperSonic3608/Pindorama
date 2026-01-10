@@ -3592,11 +3592,8 @@ MonoBehaviour:
     para enfrentar a invas\xE3o portuguesa.\r\nPara reunir aliados e equipamentos,
     Yai visita diversas aldeias de povos diferentes, conhecendo assim suas culturas
     e hist\xF3rias, al\xE9m de fortalecer a sua coaliz\xE3o e a si pr\xF3prio \u2014
-    com diversos poderes e equipamentos diferentes. Para conquistar o apoio de alguns
-    dos povos, Yai, duela com os guerreiros mais fortes das aldeias desses povos,
-    ganhando assim a sua lealdade.\r\nO jogo possui dois finais, um bom, onde o jogador
-    derrota os colonizadores salva \r\nos ind\xEDgenas do territ\xF3rio que seria
-    o atual Brasil, e um ruim, em que ele se junta aos portugueses e auxilia na coloniza\xE7\xE3o.\r\n"
+    com diversos poderes e equipamentos diferentes.\r\n No fim, Yai chega a praia,
+    onde os invasores chegar\xE3o, l\xE1 ele se prepara para o combate e os aguarda.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
@@ -20604,8 +20601,7 @@ MonoBehaviour:
     do jogo come\xE7a nas margens do rio Uaup\xE9s, no cora\xE7\xE3o da floresta
     Amaz\xF4nica. Como os portugueses chegam no Brasil na regi\xE3o que seria a atual
     cidade de Porto Seguro, Bahia, nosso protagonista passar\xE1 por uma jornada
-    ao longo do norte e nordeste do que seria o Brasil pr\xE9-invas\xE3o. Segue abaixo,
-    na Figura 1, um mapa com a poss\xEDvel jornada."
+    ao longo do norte e nordeste do que seria o Brasil pr\xE9-invas\xE3o."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
   m_sharedMaterial: {fileID: 7917402502036363760, guid: 4851ecbc1b1f71c4dae04bcddea0ff91, type: 2}
