@@ -8,19 +8,19 @@ public class Inimigo : Agente
 
     public void IA(Agente agente, Dado dado)
 	{
-        int acaoIndex = Random.Range(0,2);
+        // int acaoIndex = Random.Range(0,2);
         int opcaoIndex = Random.Range(0,3);
-        switch (acaoIndex)
-        {
-            case 0:
+        // switch (acaoIndex)
+        // {
+        //     case 0:
                 arma.aplicarDano(agente, dado, opcaoIndex);
-                break;
-            case 1:
-                Curar(opcaoIndex);
-                break;
-            default:
-                break;
-        }
+        //         break;
+        //     case 1:
+        //         aplicarCura(opcaoIndex);
+        //         break;
+        //     default:
+        //         break;
+        // }
 	}
 }
 

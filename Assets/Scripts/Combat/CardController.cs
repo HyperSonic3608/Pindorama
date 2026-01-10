@@ -30,6 +30,7 @@ public class CardController : MonoBehaviour
                 }
             }
             cardPanel.SetActive(false);
+            combatLogic.SetAgents();
             combatLogic.UpdateCombatPhase(1);
         }
     }

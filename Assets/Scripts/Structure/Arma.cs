@@ -5,7 +5,7 @@ public class Arma : Item
 {
     public enum Tipo
     {
-        [Ataques(10, 12, 15)] Físico = 0,
+        [Ataques(5, 8, 10)] Físico = 0,
         [Ataques(20, 0, 0)] ArcoFlecha = 10,
         [Ataques(10, 0, 0)] Faca = 11,
         [Ataques(15, 0, 0)] Lanca = 12,

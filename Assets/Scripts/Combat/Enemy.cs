@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Enemy : MonoBehaviour
 {
-    public Inimigo inimigo;
+    public Inimigo inimigo { get; private set; }
     private CanvasGroup canvasGroup;
     private CombatLogic combatLogic;
     private ActionMenu actionMenu;
@@ -25,14 +25,14 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         vector3.Set(Pointer.current.position.ReadValue().x, Pointer.current.position.ReadValue().y, 1);
-        if (combatLogic.GetCombatPhase() == 3 && GetComponent<BoxCollider2D>().bounds.Contains(vector3))
+        if (combatLogic.GetCombatPhase() == 3 && actionMenu.lastActionType == 0 && GetComponent<BoxCollider2D>().bounds.Contains(vector3))
         {
             canvasGroup.alpha = 0.6f;
             if (Pointer.current.press.isPressed)
             {
-                combatLogic.enemy = this;
-                combatLogic.UpdateCombatPhase(4);
+                combatLogic.alvo = inimigo;
                 actionMenu.Close();
+                combatLogic.UpdateCombatPhase(4);
                 dado.RollDice();
             }
         }
@@ -40,10 +40,11 @@ public class Enemy : MonoBehaviour
         {
             canvasGroup.alpha = 1;
         }
+
         if (inimigo.vida == 0)
         {
             gameObject.SetActive(false);
-            combatLogic.kill();
+            combatLogic.kill(true);
         }
     }
 }

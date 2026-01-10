@@ -12,7 +12,7 @@ public class Aliado : Agente
                 arma.aplicarDano(agente, dado, opcaoIndex);
                 break;
             case 1:
-                Curar(opcaoIndex);
+                agente.aplicarCura(opcaoIndex, dado);
                 break;
             default:
                 break;
