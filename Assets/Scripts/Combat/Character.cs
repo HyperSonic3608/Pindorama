@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -14,6 +15,7 @@ public class Character : MonoBehaviour
     private bool isBruto;
     private CombatLogic combatLogic;
     private GameObject actionMenu;
+    private Dice dado;
     public Texts attackTexts { get; private set; }
     public Texts magicTexts { get; private set; }
     public Image image { get; private set; }
@@ -21,13 +23,14 @@ public class Character : MonoBehaviour
 
     void Start()
     {
-        aliado = new Aliado("Indígena", Personagem.Classe.Indigena, Personagem.Tipo.Mediano, new Arma((Arma.Tipo)Random.Range(10,13), (Item.Raridade)Random.Range(0,3)));
+        aliado = new Aliado("Indígena", Personagem.Classe.Indigena, Personagem.Tipo.Mediano, new Arma((Arma.Tipo)Random.Range(10, 13), (Item.Raridade)Random.Range(0, 3)));
         rarity = (int)aliado.arma.raridade;
         transform.parent.GetComponent<Animator>().SetFloat("CardRarity", rarity);
         canvasGroup = GetComponent<CanvasGroup>();
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         actionMenu = GameObject.FindGameObjectWithTag("ActionMenu");
-        attackTexts = Resources.Load<Texts>("Texts/CombatActions/"+aliado.arma.tipo.ToString());
+        dado = GameObject.FindGameObjectWithTag("Dice").GetComponent<Dice>();
+        attackTexts = Resources.Load<Texts>("Texts/CombatActions/" + aliado.arma.tipo.ToString());
         magicTexts = Resources.Load<Texts>("Texts/CombatActions/Magica");
         SetAnimator(aliado.tipo);
     }
@@ -53,21 +56,37 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        if (combatLogic.GetCombatPhase() == 1 && GetComponent<BoxCollider2D>().bounds.Contains(Pointer.current.position.ReadValue()))
+        if (((combatLogic.GetCombatPhase() == 1 && !aliado.jogouNesseTurno) || (combatLogic.GetCombatPhase() == 3 && actionMenu.GetComponent<ActionMenu>().lastActionType == 1)) && GetComponent<BoxCollider2D>().bounds.Contains(Pointer.current.position.ReadValue()))
         {
             canvasGroup.alpha = 0.6f;
             if (Pointer.current.press.isPressed)
             {
-                combatLogic.character = this;
-                actionMenu.transform.SetPositionAndRotation(new Vector3(actionMenu.transform.position.x * -1, actionMenu.transform.position.y, actionMenu.transform.position.z), actionMenu.transform.rotation);
-                actionMenu.GetComponent<ActionMenu>().character = gameObject;
-                actionMenu.GetComponent<ActionMenu>().UpdateMenu();
-                combatLogic.UpdateCombatPhase(2);
+                if (combatLogic.GetCombatPhase() == 1)
+                {
+                    combatLogic.realizador = aliado;
+                    actionMenu.transform.SetPositionAndRotation(new Vector3(actionMenu.transform.position.x * -1, actionMenu.transform.position.y, actionMenu.transform.position.z), actionMenu.transform.rotation);
+                    actionMenu.GetComponent<ActionMenu>().character = gameObject;
+                    actionMenu.GetComponent<ActionMenu>().UpdateMenu();
+                    combatLogic.UpdateCombatPhase(2);
+                }
+                else
+                {
+                    combatLogic.alvo = aliado;
+                    actionMenu.GetComponent<ActionMenu>().Close();
+                    combatLogic.UpdateCombatPhase(4);
+                    dado.RollDice();
+                }
             }
         }
         else if (combatLogic.GetCombatPhase() < 2 || combatLogic.GetCombatPhase() > 3)
         {
             canvasGroup.alpha = 1;
+        }
+
+        if (aliado.vida == 0)
+        {
+            gameObject.SetActive(false);
+            combatLogic.kill(false);
         }
     }
 }

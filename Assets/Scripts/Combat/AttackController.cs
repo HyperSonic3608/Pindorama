@@ -20,9 +20,10 @@ public class AttackController : MonoBehaviour
         transform.GetChild(0).GetComponent<Image>().enabled = false;
         yield return new WaitForSeconds(0.5f);
         animator.SetFloat("TypeAction", actionMenu.lastActionType);
-        animator.SetFloat("TypeWeapon", (float)combatLogic.character.aliado.arma.tipo);
+        animator.SetFloat("TypeWeapon", (float)combatLogic.realizador.arma.tipo);
+        animator.SetFloat("TypeChar", (float)combatLogic.realizador.tipo);
         animator.SetFloat("TypeOption", actionMenu.lastButtonPressed);
-        animator.SetFloat("TypeRarity", (float)combatLogic.character.aliado.arma.raridade);
+        animator.SetFloat("TypeRarity", (float)combatLogic.realizador.arma.raridade);
         animator.SetBool("isActive", true);
         transform.parent.GetComponent<Image>().enabled = true;
         transform.GetComponent<Image>().enabled = true;

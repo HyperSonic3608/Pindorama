@@ -4,6 +4,7 @@ public abstract class Agente
 	public Arma arma { get; protected set; }
 	protected float vidaMaxima;
 	public float vida { get; protected set; }
+	public bool jogouNesseTurno { get; private set; }
 	// protected EfeitosStatus efeitos;
 	public Personagem.Tipo tipo { get { return personagem.tipo; } }
 
@@ -13,6 +14,7 @@ public abstract class Agente
 	{
 		this.personagem = personagem;
 		this.arma = arma;
+		jogouNesseTurno = false;
 	}
 
 	private Agente()
@@ -35,7 +37,11 @@ public abstract class Agente
 		vida = ((vida - dano) > 0) ? vida - dano : 0;
 	}
 
-	public void Curar(float opcaoIndex)
+	public void SetJogouNesseTurno(bool jogou){
+		jogouNesseTurno = jogou;
+	}
+
+	public void aplicarCura(float opcaoIndex, Dado dado)
 	{
 		int cura;
 		switch (opcaoIndex)
@@ -53,6 +59,10 @@ public abstract class Agente
 				cura = 0;
 				break;
 		}
+		
+        float chanceDeDesvio = 75 - (dado.valor * 12.5f);
+
+        if (UnityEngine.Random.Range(1, 101) > chanceDeDesvio)
 		vida = ((vida + cura) < vidaMaxima) ? vida + cura : vidaMaxima;
 	}
 }
