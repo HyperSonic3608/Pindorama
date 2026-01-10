@@ -15,7 +15,45 @@ MonoBehaviour:
   dialogueLines:
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - Povo Tukano
-  autoProgressLines: 010101
+  - "Novas informa\xE7\xF5es adicionadas ao Comp\xEAndio"
+  - "Pressione TAB para visualiz\xE1-las"
+  autoProgressLines: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08

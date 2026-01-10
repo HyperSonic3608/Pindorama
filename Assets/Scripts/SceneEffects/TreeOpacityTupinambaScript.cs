@@ -12,6 +12,8 @@ public class TreeOpacityTupinambaScript : MonoBehaviour
     [SerializeField] Light2D globalLight2D;
     private Light2D playerLight2D;
     [SerializeField] PixelPerfectCamera myCamera;
+    [SerializeField] float defaultLightIntensity;
+    [SerializeField] float modifiedLightIntensity;
     void Start()
     {
         tilemap = GetComponent<Tilemap>();
@@ -26,15 +28,15 @@ public class TreeOpacityTupinambaScript : MonoBehaviour
         if (polygonCollider2D.IsTouching(playerBoxCollider2D))
         {
             tilemap.color = new Color(1f, 1f, 1f, 0.1f);
-            globalLight2D.intensity = 0.1f;
+            globalLight2D.intensity = modifiedLightIntensity;
             globalLight2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
             playerLight2D.enabled = true;
-            myCamera.assetsPPU = 48;
+            myCamera.assetsPPU = 64;
         }
         else if (malocaCompositeCollider2D.IsTouching(playerBoxCollider2D) == false)
         {
             tilemap.color = color;
-            globalLight2D.intensity = 1f;
+            globalLight2D.intensity = defaultLightIntensity;
             globalLight2D.color = new Color(1f, 1f, 1f, 1f);
             playerLight2D.enabled = false;
             myCamera.assetsPPU = 32;

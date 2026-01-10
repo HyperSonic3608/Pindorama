@@ -23,8 +23,9 @@ MonoBehaviour:
   - "V\xE1 para aldeia do povo Yanomami"
   - "Nossos vizinhos poder\xE3o te ajudar"
   - Em sua jornada
-  - Siga para o sul e em seguida para o oeste
+  - Siga para o sul e em seguida para o leste
   - "Assim voc\xEA chegar\xE1 na aldeia Yanomami"
-  autoProgressLines: 010101010101010101010101
+  - "Um de nossos guerreiros mais fortes ir\xE1 te acompanhar"
+  autoProgressLines: 01010101010101010101010101
   autoProgressDelay: 1.5
   typingSpeed: 0.08

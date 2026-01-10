@@ -8,8 +8,10 @@ public class InteriorMalocaScript : MonoBehaviour
     private CompositeCollider2D compositeCollider2D;
     private Tilemap tilemap;
     private Color color;
-    [SerializeField] Light2D light2D;
+    [SerializeField] Light2D globalLight2D;
     [SerializeField] PixelPerfectCamera myCamera;
+    [SerializeField] float defaultLightIntensity;
+    [SerializeField] float modifiedLightIntensity;
 
     void Start()
     {
@@ -24,13 +26,15 @@ public class InteriorMalocaScript : MonoBehaviour
         if (compositeCollider2D.IsTouching(playerBoxCollider2D))
         {
             tilemap.color = new Color(1f, 1f, 1f, 0.2f);
-            light2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
-            myCamera.assetsPPU = 48;
+            globalLight2D.color = new Color(0.2f, 0.2f, 0.2f, 1f);
+            globalLight2D.intensity = modifiedLightIntensity;
+            myCamera.assetsPPU = 64;
         }
         else
         {
             tilemap.color = color;
-            light2D.color = new Color(1f, 1f, 1f, 1f);
+            globalLight2D.color = new Color(1f, 1f, 1f, 1f);
+            globalLight2D.intensity = defaultLightIntensity;
             myCamera.assetsPPU = 32;
         }
 

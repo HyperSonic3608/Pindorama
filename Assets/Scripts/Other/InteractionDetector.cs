@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableRange = null;
+    [SerializeField] Animator playerAnimator;
 
     public static bool canMove = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,9 +20,11 @@ public class InteractionDetector : MonoBehaviour
             if (canMove)
             {
                 canMove = false;
+                playerAnimator.SetBool("isYanomamiDialogue", true);
             }
             else
             {
+                playerAnimator.SetBool("isYanomamiDialogue", false);
                 canMove = true;
             }
         }

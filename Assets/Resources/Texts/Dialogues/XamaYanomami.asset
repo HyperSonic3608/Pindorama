@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbeaa9cae75a5c84ca53d783a0464332, type: 3}
+  m_Name: XamaYanomami
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  dialogueLines:
+  - Seja bem-vindo Yai
+  - O que te traz a nossa vila?
+  - "Isso \xE9 muito grave"
+  - "N\xF3s"
+  - Os Yanomami
+  - Iremos te ajudar em sua jornada
+  - "Um de nossos grandes guerreiros ir\xE1 te acompanhar"
+  - "Este que est\xE1 a minha direita"
+  - "Al\xE9m disso"
+  - "Voc\xEA dever\xE1 fazer uso do P\xF3 de Yokoana"
+  - "Com ele, voc\xEA chegar\xE1 mais r\xE1pido ao seu destino"
+  - Utilize este cigarro feito de Yokoana
+  - "Ele far\xE1 voc\xEA chegar a aldeia do povo Tupinamb\xE1"
+  - "Eles s\xE3o guerreiros vorazes e ser\xE3o de grande ajuda para a sua jornada"
+  - "Pr\xF3ximo \xE0 aldeia Tupinamb\xE1, existe um ponto de muita energia"
+  - "Voc\xEA saber\xE1 quando chegar l\xE1"
+  - Assim que chegar, utilize este cigarro
+  - (Pressione F para utilizar o cigarro)
+  - "Voc\xEA ir\xE1 direto para a o local de chegado dos invasores"
+  - "Que os esp\xEDritos te guiem"
+  - Bravo guerreiro Yai.
+  autoProgressLines: 010101010101010101010101010101010101010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.08
