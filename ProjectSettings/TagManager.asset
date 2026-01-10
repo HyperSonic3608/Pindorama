@@ -50,11 +50,11 @@ TagManager:
   - name: Ground
     uniqueID: 2089838279
     locked: 0
-  - name: WalkInFront
-    uniqueID: 4232143411
-    locked: 0
   - name: Collision
     uniqueID: 683557377
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 4232143411
     locked: 0
   - name: NPC 3
     uniqueID: 3330506215

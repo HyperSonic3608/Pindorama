@@ -7,6 +7,7 @@ public class CombatLogic : MonoBehaviour
     [SerializeField] private CardController cardController;
     [SerializeField] private Dice dice;
     [SerializeField] private ActionMenu actionMenu;
+    [SerializeField] private string mapa;
     public GameObject attackAnimaitons;
     public Agente realizador;
     public Agente alvo;
@@ -87,7 +88,7 @@ public class CombatLogic : MonoBehaviour
         {
             enemyCount--;
             if (enemyCount == 0)
-                SceneManager.LoadScene("MapaAldeiaYanomami");
+                SceneManager.LoadScene(mapa);
         }
         else
         {
