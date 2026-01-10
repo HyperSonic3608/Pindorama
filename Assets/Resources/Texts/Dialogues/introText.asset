@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbeaa9cae75a5c84ca53d783a0464332, type: 3}
-  m_Name: introText
+  m_Name: IntroText
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   dialogueLines:
   - Pindorama antes de 1500
