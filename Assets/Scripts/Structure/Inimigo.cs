@@ -6,8 +6,8 @@ public class Inimigo : Agente
 
     public Inimigo(Personagem personagem, Arma arma) : base(personagem, arma) {}
 
-    public void IA(Agente agente, Dado dado)
-	{
+    public (int, int) IA(Agente agente, Dado dado)
+        {
         // int acaoIndex = Random.Range(0,2);
         int opcaoIndex = Random.Range(0,3);
         // switch (acaoIndex)
@@ -21,6 +21,7 @@ public class Inimigo : Agente
         //     default:
         //         break;
         // }
+        return (0, opcaoIndex);
 	}
 }
 

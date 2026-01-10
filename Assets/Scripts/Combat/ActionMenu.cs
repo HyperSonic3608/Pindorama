@@ -8,9 +8,11 @@ public class ActionMenu : MonoBehaviour
     [SerializeField] private GameObject[] actionButtons;
     [SerializeField] private Image characterImage;
     [SerializeField] private CombatLogic combatLogic;
-    public int lastActionType { get; private set; } = 0;
+    public int lastActionType { get; private set; }
     public int lastButtonPressed { get; private set; }
     private Animator animator;
+
+    public void Start(){ lastActionType = 0; }
 
     public void UpdateMenu()
     {
@@ -62,6 +64,7 @@ public class ActionMenu : MonoBehaviour
             }
         }
         
+        combatLogic.setAction(lastActionType, lastButtonPressed);
         combatLogic.UpdateCombatPhase(3);
     }
 }

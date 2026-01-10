@@ -5,13 +5,10 @@ using UnityEngine;
 public class FinishRoll : StateMachineBehaviour
 {
     private CombatLogic combatLogic;
-    private AttackController attackController;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         combatLogic = GameObject.FindGameObjectWithTag("Logic").GetComponent<CombatLogic>();
         combatLogic.attackAnimaitons.SetActive(true);
-        attackController = combatLogic.attackAnimaitons.GetComponentInChildren<AttackController>();
-        attackController.Show();
         combatLogic.UpdateCombatPhase(5);
     }
 
