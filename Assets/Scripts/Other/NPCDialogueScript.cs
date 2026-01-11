@@ -42,7 +42,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
         else
         {
             NextLine();
-            //StopDialogue();
+            StopDialogue();
         }
     }
 
@@ -68,7 +68,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
 
         if (condicaoFuncionamento == false)
         {
-            playerCanMove = false;
+            playerCanMove = true;
         }
         else
         {
@@ -117,7 +117,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
 
     public bool GetPlayerCanMove()
     {
-        return this.playerCanMove;
+        return true;
     }
 
     public void Start()

@@ -19,7 +19,7 @@ public class InteractionDetector : MonoBehaviour
             interactableRange?.Interact();
             if (canMove)
             {
-                canMove = false;
+                canMove = true;
                 playerAnimator.SetBool("isYanomamiDialogue", true);
             }
             else

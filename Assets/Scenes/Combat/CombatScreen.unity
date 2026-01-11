@@ -106736,7 +106736,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -108805,11 +108805,10 @@ MonoBehaviour:
   slotController: {fileID: 2016785660}
   cardController: {fileID: 2016785658}
   dice: {fileID: 857835226}
-  actionMenu: {fileID: 3592653193283606006}
   mapa: MapaTeletransporte
   attackAnimaitons: {fileID: 856601302}
   playerCount: 3
-  enemyCount: 5
+  enemyCount: 3
   cardCount: 3
 --- !u!1 &2039215508
 GameObject:

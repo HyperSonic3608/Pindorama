@@ -15,7 +15,6 @@ MonoBehaviour:
   dialogueLines:
   - Ano de 20XX
   - "Floresta Amaz\xF4nica"
-  - '*pressione E para continuar*'
-  autoProgressLines: 010101
+  autoProgressLines: 0101
   autoProgressDelay: 1.5
   typingSpeed: 0.08
