@@ -24,7 +24,7 @@ O projeto foi desenvolvido utilizando a **Unity**, em que foram aplicados concei
 
 ### 1. Clonar o Repositório com [Git](https://git-scm.com/)
 ```bash
-git clone https://github.com/usuario/Pindorama.git
+git clone https://github.com/HyperSonic3608/Pindorama.git
 cd Pindorama
 ```
 
