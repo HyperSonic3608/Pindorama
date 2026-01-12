@@ -68,6 +68,7 @@ public class Character : MonoBehaviour
                     actionMenu.GetComponent<ActionMenu>().character = gameObject;
                     actionMenu.GetComponent<ActionMenu>().UpdateMenu();
                     combatLogic.UpdateCombatPhase(2);
+                    SoundEffectManager.Play("MenuSelect");
                 }
                 else
                 {

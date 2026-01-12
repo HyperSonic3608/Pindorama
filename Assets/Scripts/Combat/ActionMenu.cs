@@ -12,7 +12,7 @@ public class ActionMenu : MonoBehaviour
     public int lastButtonPressed { get; private set; }
     private Animator animator;
 
-    public void Start(){ lastActionType = 0; }
+    public void Start() { lastActionType = 0; }
 
     public void UpdateMenu()
     {
@@ -52,6 +52,7 @@ public class ActionMenu : MonoBehaviour
             lastActionType = tipoAcao;
             i++;
         }
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void ActionButton(GameObject button)
@@ -63,7 +64,8 @@ public class ActionMenu : MonoBehaviour
                 lastButtonPressed = i;
             }
         }
-        
+
+        SoundEffectManager.Play("MenuSelect");
         combatLogic.setAction(lastActionType, lastButtonPressed);
         combatLogic.UpdateCombatPhase(3);
     }

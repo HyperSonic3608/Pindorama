@@ -12,8 +12,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Animator animator;
     private Transform sprite;
-
     private InteractionDetector interactionDetector;
+    private bool playingFootsteps = false;
+    public float footstepsSpeed = 0.5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,11 +33,17 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         animator.SetBool("isWalking", true);
+        if(playingFootsteps == false)
+        {
+            PlayFootstep();
+        }
+        StartFootsteps();
         if (context.canceled)
         {
             animator.SetBool("isWalking", false);
             animator.SetFloat("lastInputX", moveInput.x);
             animator.SetFloat("lastInputY", moveInput.y);
+            StopFootsteps();
         }
 
         if (InteractionDetector.canMove)
@@ -64,10 +71,11 @@ public class PlayerMovement : MonoBehaviour
     public void Smoke(InputAction.CallbackContext context)
     {
         animator.SetBool("isSmoking", true);
-
+        
         if (mapa == "MapaTeletransporte")
         {
             portal.SetActive(true);
+            SoundEffectManager.Play("Portal");
         }
 
         if (context.canceled)
@@ -85,5 +93,21 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSpeed = 5;
         }
+    }
+    void StartFootsteps()
+    {
+        playingFootsteps = true;
+        InvokeRepeating(nameof(PlayFootstep), 0f, footstepsSpeed);
+
+    }
+    void StopFootsteps()
+    {
+        playingFootsteps = false;
+        CancelInvoke(nameof(PlayFootstep));
+    }
+
+    void PlayFootstep()
+    {
+        SoundEffectManager.Play("Footstep", true);
     }
 }

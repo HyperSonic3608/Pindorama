@@ -34,6 +34,7 @@ public class Enemy : MonoBehaviour
                 actionMenu.Close();
                 combatLogic.UpdateCombatPhase(4);
                 dado.RollDice();
+                SoundEffectManager.Play("Exit");
             }
         }
         else

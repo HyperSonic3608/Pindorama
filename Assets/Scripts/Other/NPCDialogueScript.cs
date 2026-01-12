@@ -37,12 +37,13 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
         if (!isDialogueActive)
         {
             StartDialogue();
+            SoundEffectManager.Play("Play");
 
         }
         else
         {
             NextLine();
-            StopDialogue();
+            //StopDialogue();
         }
     }
 
@@ -84,6 +85,7 @@ public class NPCDialogueScript : MonoBehaviour, IInteractable
 
         foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
+            SoundEffectManager.Play("Talk");
             dialogueText.text += letter;
             yield return new WaitForSeconds(dialogueData.typingSpeed);
         }

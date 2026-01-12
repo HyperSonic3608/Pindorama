@@ -42,78 +42,91 @@ public class CodexControl : MonoBehaviour
         YanomamiPage.SetActive(false);
         TupinambaPage.SetActive(false);
         PovosButtons.SetActive(true);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirXamanismo()
     {
         page4.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirHistoria()
     {
         page1.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirLocalizacoes()
     {
         page5.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirPersonagens()
     {
         page6.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirOponentes()
     {
         page7.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirJornada()
     {
         page2.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirAmeacas()
     {
         page8.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirFauna()
     {
         page9.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirFlora()
     {
         page10.SetActive(true);
         buttons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirTukano()
     {
         TukanoPage.SetActive(true);
         PovosButtons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirYanomami()
     {
         YanomamiPage.SetActive(true);
         PovosButtons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirTupinamba()
     {
         TupinambaPage.SetActive(true);
         PovosButtons.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void Voltar()
@@ -133,5 +146,6 @@ public class CodexControl : MonoBehaviour
         TupinambaPage.SetActive(false);
 
         buttons.SetActive(true);
+        SoundEffectManager.Play("MenuClose");
     }
 }

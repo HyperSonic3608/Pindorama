@@ -28,6 +28,15 @@ public class AttackController : MonoBehaviour
         transform.parent.GetComponent<Image>().enabled = true;
         transform.GetComponent<Image>().enabled = true;
         transform.GetChild(0).GetComponent<Image>().enabled = true;
+        if (combatLogic.lastActionType == 0)
+        {
+            SoundEffectManager.Play("Attack");
+        }
+        else
+        {
+            SoundEffectManager.Play("Heal");
+        }
+
     }
 
 }

@@ -15,7 +15,6 @@ MonoBehaviour:
   dialogueLines:
   - ...
   - "Voc\xEA sente uma energia ancestral"
-  - Boom!!!
-  autoProgressLines: 010101
+  autoProgressLines: 0101
   autoProgressDelay: 1.5
   typingSpeed: 0.08
