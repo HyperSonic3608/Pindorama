@@ -12,8 +12,12 @@ public class exitLightiningScript : MonoBehaviour
     {
         if (boxCollider2D.IsTouching(playerBoxCollider2D))
         {
-            globalLight2D.intensity = 0f;
-            playerLight2D.intensity = 0f;
+            SoundEffectManager.Play("PortalActivation");
+            globalLight2D.intensity = 100;
+        }
+        else
+        {
+            globalLight2D.intensity = 1;
         }
     }
 }

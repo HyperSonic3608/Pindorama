@@ -14,20 +14,12 @@ public class Dice : MonoBehaviour
         updateDice();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            RollDice();
-        }
-    }
-
     public void RollDice()
     {
         dado.rolarDado();
         animator.SetFloat("DiceValue", dado.valor);
         animator.SetBool("Roll", true);
+        SoundEffectManager.Play("Dice");
     }
 
     public void updateDice()

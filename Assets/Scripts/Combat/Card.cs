@@ -25,6 +25,7 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         transform.SetParent(transform.root);
         canvasGroup.blocksRaycasts = false;
         canvasGroup.alpha = 0.6f;
+        SoundEffectManager.Play("SelectingCard");
     }
 
     void IDragHandler.OnDrag(PointerEventData eventData)
@@ -57,6 +58,7 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
         transform.SetParent(originalParent);
         GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+        SoundEffectManager.Play("PlacingCard");
     }
 
     void setCharacter()

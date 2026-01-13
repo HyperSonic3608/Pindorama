@@ -15,6 +15,7 @@ public class MenuControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             menuCanvas.SetActive(!menuCanvas.activeSelf);
+            SoundEffectManager.Play("MenuOpen");
         } 
     }
 }

@@ -102,12 +102,14 @@ public class CombatLogic : MonoBehaviour
         if (isEnemy)
         {
             enemyCount--;
+            SoundEffectManager.Play("Death");
             if (enemyCount == 0)
                 SceneManager.LoadScene(mapa);
         }
         else
         {
             playerCount--;
+            SoundEffectManager.Play("Death");
             if (playerCount == 0)
                 SceneManager.LoadScene("Menu");
         }

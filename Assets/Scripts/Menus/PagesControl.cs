@@ -19,6 +19,7 @@ public class PagesControl : MonoBehaviour
         compendio.SetActive(true);
         consumiveis.SetActive(false);
         aliados.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirConsumiveis()
@@ -26,6 +27,7 @@ public class PagesControl : MonoBehaviour
         compendio.SetActive(false);
         consumiveis.SetActive(true);
         aliados.SetActive(false);
+        SoundEffectManager.Play("MenuSelect");
     }
 
     public void AbrirAliados()
@@ -33,10 +35,12 @@ public class PagesControl : MonoBehaviour
         compendio.SetActive(false);
         consumiveis.SetActive(false);
         aliados.SetActive(true);
+        SoundEffectManager.Play("MenuSelect");
     }
 
-    public void CloseMenu ()
+    public void CloseMenu()
     {
         menu.SetActive(false);
+        SoundEffectManager.Play("MenuClose");
     }
 }
