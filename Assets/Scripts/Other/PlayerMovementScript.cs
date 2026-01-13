@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         animator.SetBool("isWalking", true);
-        if(playingFootsteps == false)
+        if (playingFootsteps == false)
         {
             PlayFootstep();
         }
@@ -71,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
     public void Smoke(InputAction.CallbackContext context)
     {
         animator.SetBool("isSmoking", true);
-        
+
         if (mapa == "MapaTeletransporte")
         {
             portal.SetActive(true);
