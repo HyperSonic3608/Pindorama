@@ -77,7 +77,7 @@ Para dúvidas e sugestões, entre em contato conosco:
 - Coorientador metodológico: Alisson Rodrigo dos Santos
 
 ### Relatório Final
-[Clique aqui](https://raw.githubusercontent.com/HyperSonic3608/Pindorama/refs/heads/main/PindoramaRelatorioFinal.pdf) para acessar o relatório final do TCC.
+[Clique aqui](https://github.com/HyperSonic3608/Pindorama/blob/main/PindoramaRelatorioFinal.pdf) para acessar o relatório final do TCC.
 
 ---
 **Aproveite a jornada em Pindorama, A Grande Invasão!** 🌿
