@@ -1,4 +1,4 @@
-![Logo do jogo Pindorama, A Grande Invasão](https://github.com/user-attachments/assets/2fa14db8-e812-44a1-9219-7f20547bd68c)
+![Logo do jogo Pindorama, A Grande Invasão](https://raw.githubusercontent.com/HyperSonic3608/Pindorama/refs/heads/main/Assets/Textures/UI/LogoPrototipo.png)
 
 ---
 
@@ -77,7 +77,7 @@ Para dúvidas e sugestões, entre em contato conosco:
 - Coorientador metodológico: Alisson Rodrigo dos Santos
 
 ### Relatório Final
-Clique aqui para acessar o relatório final do TCC.
+[Clique aqui](https://raw.githubusercontent.com/HyperSonic3608/Pindorama/refs/heads/main/PindoramaRelatorioFinal.pdf) para acessar o relatório final do TCC.
 
 ---
 **Aproveite a jornada em Pindorama, A Grande Invasão!** 🌿
